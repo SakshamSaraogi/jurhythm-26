@@ -65,7 +65,7 @@ export default function LabSection({
         {/* Top: massive LAB + paragraph */}
         <div className="grid grid-cols-1 w-full pl-4 md:pl-6 lg:pl-10 md:grid-cols-12 items-start gap-8 md:gap-10">
           <div className="md:col-span-6">
-            <h2 className="font-limelight uppercase leading-none tracking-widest text-[14vw] md:text-[10vw] lg:text-[8vw] text-[#ff6b35] drop-shadow-[0_0_40px_rgba(255,107,53,0.5)]">
+            <h2 className="font-new-amsterdam uppercase leading-none tracking-widest text-[14vw] md:text-[10vw] lg:text-[8vw] text-[#ff6b35] drop-shadow-[0_0_40px_rgba(255,107,53,0.5)]">
               {headingLeft}
             </h2>
           </div>

@@ -18,9 +18,10 @@ const RenderModel = ({ children, className, environment = "sunset" }: RenderMode
       shadows
       dpr={[1, 2]}
       gl={{ alpha: true, antialias: true }}
+      camera={{ position: [0, 0, 5], fov: 50 }}
     >
-      {/* Environment Lighting - better for hologram model */}
-      {environment && <Environment preset="city" />}
+      {/* Environment Lighting - better for hot air balloon model */}
+      {environment && <Environment preset="sunset" />}
       
       {/* Additional lighting for better model visibility */}
       <ambientLight intensity={0.6} />

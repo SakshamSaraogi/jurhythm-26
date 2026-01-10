@@ -15,13 +15,20 @@ const Footer = dynamic(() => import("@/components/Footer"), {
   loading: () => <div className="h-screen bg-black animate-pulse" />
 })
 
-const LabSection = dynamic(() => import("@/components/lab/lab-section"), {
-  loading: () => <div className="h-96 bg-gray-900 animate-pulse" />
+const AboutSection = dynamic(() => import("@/components/AboutSection"), {
+  loading: () => <div className="h-96 bg-black animate-pulse" />
 })
 
-const VerticlesSections = dynamic(() => import("@/components/Verticles/VerticlesSections"), {
-  ssr: false,
-  loading: () => <div className="h-96 bg-gray-800 animate-pulse" />
+const StarsSection = dynamic(() => import("@/components/StarsSection"), {
+  loading: () => <div className="h-96 bg-black animate-pulse" />
+})
+
+const VerticalsSection = dynamic(() => import("@/components/VerticalsSection"), {
+  loading: () => <div className="h-96 bg-black animate-pulse" />
+})
+
+const Gallery = dynamic(() => import("@/components/Gallery"), {
+  loading: () => <div className="h-96 bg-black animate-pulse" />
 })
 
 gsap.registerPlugin(ScrollTrigger)
@@ -73,40 +80,25 @@ export default function Home() {
       {/* Main Content */}
       <div ref={containerRef} className="w-full min-h-screen bg-black relative transition-colors duration-1000">
         
-      <LazyComponent fallback={<div className="h-96 bg-gray-800 animate-pulse" />}>
-          <div className="relative">
-            {/* Orange Shimmer Effect */}
-            <div className="absolute inset-0 overflow-hidden pointer-events-none">
-              <div className="absolute -inset-[100%] bg-gradient-to-r from-transparent via-[#ff6b35]/5 to-transparent animate-shimmer" 
-                   style={{ animation: 'shimmer 8s infinite linear' }}></div>
-            </div>
-            
-            {/* Orange Particles */}
-            <div className="absolute inset-0 overflow-hidden pointer-events-none opacity-30">
-              <div className="absolute top-20 left-[10%] w-1 h-1 rounded-full bg-[#ff6b35] animate-float-slow"></div>
-              <div className="absolute top-40 right-[20%] w-1.5 h-1.5 rounded-full bg-white animate-float-medium"></div>
-              <div className="absolute top-60 left-[30%] w-1 h-1 rounded-full bg-[#ff6b35] animate-float-fast"></div>
-              <div className="absolute top-80 right-[15%] w-1 h-1 rounded-full bg-white animate-float-slow"></div>
-              <div className="absolute top-[30rem] left-[25%] w-1.5 h-1.5 rounded-full bg-[#ff6b35] animate-float-medium"></div>
-              <div className="absolute top-[40rem] right-[35%] w-1 h-1 rounded-full bg-white animate-float-fast"></div>
-            </div>
-            
-            <VerticlesSections />
-          </div>
+        {/* About Section */}
+        <LazyComponent fallback={<div className="h-96 bg-black animate-pulse" />}>
+          <AboutSection />
         </LazyComponent>
         
+        {/* Stars Section */}
+        <LazyComponent fallback={<div className="h-96 bg-black animate-pulse" />}>
+          <StarsSection />
+        </LazyComponent>
         
-        {/* Lab Section */}
-        <div id="lab">
-          <LabSection />
-        </div>
+        {/* Verticals Section */}
+        <LazyComponent fallback={<div className="h-96 bg-black animate-pulse" />}>
+          <VerticalsSection />
+        </LazyComponent>
         
-        {/* Team Section with Lazy Loading
-        <LazyComponent fallback={<div className="h-96 mt-10 bg-blue-600 animate-pulse" />}>
-          <div id="team">
-            <Team />
-          </div>
-        </LazyComponent> */}
+        {/* Gallery Section */}
+        <LazyComponent fallback={<div className="h-96 bg-black animate-pulse" />}>
+          <Gallery />
+        </LazyComponent>
       </div>
       
       {/* Footer with Lazy Loading */}

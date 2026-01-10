@@ -11,7 +11,7 @@ const SponsorsPage = () => {
       
       <div className="w-full pt-20 sm:pt-28 md:pt-8 flex flex-col items-center min-h-screen bg-black pb-8">
         {/* Title Section */}
-        <h1 className="text-[#ff6b35] uppercase font-limelight text-[4rem] sm:text-[6rem] md:text-[12rem] lg:text-[15rem] xl:text-[20rem] text-center px-4 drop-shadow-[0_0_50px_rgba(255,107,53,0.6)] tracking-widest">
+        <h1 className="text-[#ff6b35] uppercase font-new-amsterdam text-[4rem] sm:text-[6rem] md:text-[12rem] lg:text-[15rem] xl:text-[20rem] text-center px-4 drop-shadow-[0_0_50px_rgba(255,107,53,0.6)] tracking-widest">
           Sponsors
         </h1>
         
@@ -19,35 +19,35 @@ const SponsorsPage = () => {
         <div className="w-full bg-[#ff6b35] p-2 sm:p-4 flex gap-2 sm:gap-3 items-center justify-between mt-6 sm:mt-10 md:mt-0 overflow-hidden">
           <div className="flex items-center gap-3 sm:gap-5 animate-marquee whitespace-nowrap">
             <div className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-black" />
-            <span className="text-black text-lg sm:text-2xl font-limelight uppercase tracking-widest text-nowrap">
+            <span className="text-black text-lg sm:text-2xl font-new-amsterdam uppercase tracking-widest text-nowrap">
               Our Sponsors
             </span>
             <div className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-black" />
-            <span className="text-black text-lg sm:text-2xl font-limelight uppercase tracking-widest text-nowrap">
+            <span className="text-black text-lg sm:text-2xl font-new-amsterdam uppercase tracking-widest text-nowrap">
               Powered By Innovation
             </span>
             <div className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-black" />
-            <span className="text-black text-lg sm:text-2xl font-limelight uppercase tracking-widest text-nowrap">
+            <span className="text-black text-lg sm:text-2xl font-new-amsterdam uppercase tracking-widest text-nowrap">
               Our Sponsors
             </span>
             <div className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-black" />
-            <span className="text-black text-lg sm:text-2xl font-limelight uppercase tracking-widest text-nowrap">
+            <span className="text-black text-lg sm:text-2xl font-new-amsterdam uppercase tracking-widest text-nowrap">
               Powered By Innovation
             </span>
             <div className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-black" />
-            <span className="text-black text-lg sm:text-2xl font-limelight uppercase tracking-widest text-nowrap">
+            <span className="text-black text-lg sm:text-2xl font-new-amsterdam uppercase tracking-widest text-nowrap">
               Our Sponsors
             </span>
             <div className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-black" />
-            <span className="text-black text-lg sm:text-2xl font-limelight uppercase tracking-widest text-nowrap">
+            <span className="text-black text-lg sm:text-2xl font-new-amsterdam uppercase tracking-widest text-nowrap">
               Powered By Innovation
             </span>
             <div className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-black" />
-            <span className="text-black text-lg sm:text-2xl font-limelight uppercase tracking-widest text-nowrap">
+            <span className="text-black text-lg sm:text-2xl font-new-amsterdam uppercase tracking-widest text-nowrap">
               Our Sponsors
             </span>
             <div className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-black" />
-            <span className="text-black text-lg sm:text-2xl font-limelight uppercase tracking-widest text-nowrap">
+            <span className="text-black text-lg sm:text-2xl font-new-amsterdam uppercase tracking-widest text-nowrap">
               Powered By Innovation
             </span>
             <div className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-black" />

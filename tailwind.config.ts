@@ -10,12 +10,19 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        limelight: ['var(--font-limelight)', 'Limelight', 'serif'],
+        'new-amsterdam': ['var(--font-new-amsterdam)', 'New Amsterdam', 'serif'],
         delius: ['var(--font-delius)', 'Delius', 'cursive'],
       },
       colors: {
         background: 'hsl(var(--background))', 
         foreground: 'hsl(var(--foreground))',
+        // JURHYTHM'26 Golden Color Palette
+        golden: {
+          DEFAULT: '#F4C542',
+          light: '#FFB84D',
+          dark: '#FFA726',
+          accent: '#8B4513',
+        },
         card: {
           DEFAULT: 'hsl(var(--card))',
           foreground: 'hsl(var(--card-foreground))'

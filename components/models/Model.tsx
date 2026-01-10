@@ -55,10 +55,14 @@ type GLTFResult = GLTF & {
 
 export function Model(props: React.ComponentProps<'group'>) {
   const { scene } = useGLTF(
-    "/Models/dae_bazaar_steampunk_carnival_game.glb"
+    "/Models/pandaren_style_hot_air_balloon.glb"
   ) as unknown as GLTFResult;
 
   const group = useRef<THREE.Group>(null!);
+  
+  // Base position that you can easily change
+  const basePosition: [number, number, number] = [0, -1.6, 0];
+  const baseScale = 0.25;
 
   // Keep original colors, just ensure shadows are enabled
   React.useEffect(() => {
@@ -71,20 +75,26 @@ export function Model(props: React.ComponentProps<'group'>) {
     });
   }, [scene]);
 
-  // Smooth floating animation only - no rotation
+  // Smooth floating animation for hot air balloon - works relative to base position
   useFrame(({ clock }) => {
     const t = clock.getElapsedTime();
     if (group.current) {
-      // Only gentle vertical floating, no rotation
-      group.current.position.y = -0.5 + Math.sin(t * 0.4) * 0.12; // Smooth floating
+      // Gentle vertical floating motion (added to base Y position)
+      group.current.position.y = basePosition[1] + Math.sin(t * 0.5) * 0.2;
+      // Slight horizontal sway (added to base X position)
+      group.current.position.x = basePosition[0] + Math.sin(t * 0.3) * 0.1;
+      // Keep base Z position
+      group.current.position.z = basePosition[2];
+      // Subtle rotation
+      group.current.rotation.y = Math.sin(t * 0.2) * 0.05;
     }
   });
 
   return (
-    <group ref={group} {...props} dispose={null} scale={0.8} position={[0, -0.5, 0]}>
+    <group ref={group} {...props} dispose={null} scale={baseScale}>
       <primitive object={scene} />
     </group>
   );
 }
 
-useGLTF.preload("/Models/dae_bazaar_steampunk_carnival_game.glb");
+useGLTF.preload("/Models/pandaren_style_hot_air_balloon.glb");

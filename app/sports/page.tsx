@@ -11,7 +11,7 @@ const page = () => {
       <div className="w-full pt-24 sm:pt-32 md:pt-16 flex flex-col items-center min-h-screen pb-16">
         {/* Funky Title with breathing space */}
         <div className="w-full px-6 py-12 md:py-20 flex flex-col items-center gap-8">
-          <h1 className="text-[#ff6b35] font-limelight text-6xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-[12rem] text-center tracking-widest uppercase leading-none animate-pulse-slow drop-shadow-[0_0_40px_rgba(255,107,53,0.5)]">
+          <h1 className="text-[#ff6b35] font-new-amsterdam text-6xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-[12rem] text-center tracking-widest uppercase leading-none animate-pulse-slow drop-shadow-[0_0_40px_rgba(255,107,53,0.5)]">
             Sports
           </h1>
           <p className="text-white font-delius text-2xl sm:text-3xl md:text-4xl text-center tracking-widest uppercase">
@@ -23,27 +23,27 @@ const page = () => {
         <div className="w-full bg-[#ff6b35] p-4 sm:p-5 flex gap-3 sm:gap-5 items-center justify-between overflow-hidden">
           <div className="flex items-center gap-4 sm:gap-6 animate-marquee whitespace-nowrap">
             <div className="w-3 h-3 sm:w-4 sm:h-4 rounded-full bg-white animate-pulse" />
-            <span className="text-white text-xl sm:text-2xl md:text-3xl font-limelight font-black tracking-widest text-nowrap uppercase">
+            <span className="text-white text-xl sm:text-2xl md:text-3xl font-new-amsterdam font-black tracking-widest text-nowrap uppercase">
               Cricket Tournament
             </span>
             <div className="w-3 h-3 sm:w-4 sm:h-4 rounded-full bg-black animate-pulse" />
-            <span className="text-black text-xl sm:text-2xl md:text-3xl font-limelight font-black tracking-widest text-nowrap uppercase">
+            <span className="text-black text-xl sm:text-2xl md:text-3xl font-new-amsterdam font-black tracking-widest text-nowrap uppercase">
               Basketball 3v3
             </span>
             <div className="w-3 h-3 sm:w-4 sm:h-4 rounded-full bg-black animate-pulse" />
-            <span className="text-black text-xl sm:text-2xl md:text-3xl font-limelight font-black tracking-widest text-nowrap uppercase">
+            <span className="text-black text-xl sm:text-2xl md:text-3xl font-new-amsterdam font-black tracking-widest text-nowrap uppercase">
               Football Championship
             </span>
             <div className="w-3 h-3 sm:w-4 sm:h-4 rounded-full bg-black animate-pulse" />
-            <span className="text-white text-xl sm:text-2xl md:text-3xl font-limelight font-black tracking-widest text-nowrap uppercase">
+            <span className="text-white text-xl sm:text-2xl md:text-3xl font-new-amsterdam font-black tracking-widest text-nowrap uppercase">
               Cricket Tournament
             </span>
             <div className="w-3 h-3 sm:w-4 sm:h-4 rounded-full bg-black animate-pulse" />
-            <span className="text-black text-xl sm:text-2xl md:text-3xl font-limelight font-black tracking-widest text-nowrap uppercase">
+            <span className="text-black text-xl sm:text-2xl md:text-3xl font-new-amsterdam font-black tracking-widest text-nowrap uppercase">
               Basketball 3v3
             </span>
             <div className="w-3 h-3 sm:w-4 sm:h-4 rounded-full bg-black animate-pulse" />
-            <span className="text-black text-xl sm:text-2xl md:text-3xl font-limelight font-black tracking-widest text-nowrap uppercase">
+            <span className="text-black text-xl sm:text-2xl md:text-3xl font-new-amsterdam font-black tracking-widest text-nowrap uppercase">
               Football Championship
             </span>
             <div className="w-3 h-3 sm:w-4 sm:h-4 rounded-full bg-black animate-pulse" />

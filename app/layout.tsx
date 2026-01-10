@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Limelight, Delius } from "next/font/google";
+import { New_Amsterdam, Delius } from "next/font/google";
 import "./globals.css";
 import { GoogleAnalytics } from '@next/third-parties/google'
 
-const limelight = Limelight({
+const newAmsterdam = New_Amsterdam({
   weight: "400",
-  variable: "--font-limelight",
+  variable: "--font-new-amsterdam",
   subsets: ["latin"],
 });
 
@@ -49,7 +49,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${limelight.variable} ${delius.variable} antialiased`}
+        className={`${newAmsterdam.variable} ${delius.variable} antialiased`}
       >
         {children}
       </body>

@@ -43,7 +43,7 @@ function Navbar() {
       </Link>
       <div className="flex justify-center w-1/3 items-center flex-1">
         <Link href="/" className="transform hover:scale-110 transition-transform duration-300">
-          <h1 className="text-[#ff6b35] font-limelight text-2xl md:text-3xl lg:text-4xl tracking-widest uppercase">
+          <h1 className="text-[#ff6b35] font-new-amsterdam text-2xl md:text-3xl lg:text-4xl tracking-widest uppercase">
             JU Rhythm
           </h1>
         </Link>
@@ -90,7 +90,7 @@ function Navbar() {
               footerElement.scrollIntoView({ behavior: 'smooth' });
             }
           }}
-          className="hidden md:block bg-[#ff6b35] text-black hover:bg-white hover:text-[#ff6b35] border-2 border-[#ff6b35] duration-300 cursor-pointer px-6 py-2 rounded-full font-limelight font-bold tracking-widest text-sm transition-all transform hover:scale-105 uppercase"
+          className="hidden md:block bg-[#ff6b35] text-black hover:bg-white hover:text-[#ff6b35] border-2 border-[#ff6b35] duration-300 cursor-pointer px-6 py-2 rounded-full font-new-amsterdam font-bold tracking-widest text-sm transition-all transform hover:scale-105 uppercase"
         >
           Contact
         </button>

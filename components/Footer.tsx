@@ -25,14 +25,14 @@ const Footer = () => {
 
       {/* Content overlay */}
       <div className="relative z-10 flex items-end justify-between md:items-end md:justify-center min-h-screen px-6">
-        <div className="text-[#ff6b35]/30 hidden md:block text-3xl md:text-[10rem] uppercase -mb-15 font-limelight tracking-widest drop-shadow-[0_0_30px_rgba(255,107,53,0.3)]">
+        <div className="text-[#ff6b35]/30 hidden md:block text-3xl md:text-[10rem] uppercase -mb-15 font-new-amsterdam tracking-widest drop-shadow-[0_0_30px_rgba(255,107,53,0.3)]">
           Ju Rhythm
         </div>
         {/* Collaboration Form */}
         <div className="bg-black/60 backdrop-blur-sm mx-auto rounded-t-full px-8 md:px-12 pt-8 md:pt-12 max-w-[25rem] w-full border-t-4 border-[#ff6b35]">
           {/* Header */}
           <div className="text-center mb-8 flex flex-col gap-3 h-full justify-between items-center">
-            <h1 className="text-xl md:text-3xl w-full uppercase font-limelight tracking-widest text-[#ff6b35] mb-6">
+            <h1 className="text-xl md:text-3xl w-full uppercase font-new-amsterdam tracking-widest text-[#ff6b35] mb-6">
               Find US!
             </h1>
 
@@ -56,7 +56,7 @@ const Footer = () => {
                 href="https://www.instagram.com/student_council_ju/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-full bg-[#ff6b35] text-black font-limelight tracking-widest text-center py-3 px-4 font-bold hover:bg-white hover:text-[#ff6b35] transition-colors duration-200 uppercase"
+                className="block w-full bg-[#ff6b35] text-black font-new-amsterdam tracking-widest text-center py-3 px-4 font-bold hover:bg-white hover:text-[#ff6b35] transition-colors duration-200 uppercase"
               >
                 @Student_Council_JU
               </a>
@@ -64,7 +64,7 @@ const Footer = () => {
                 href="https://www.instagram.com/jecrcuniversity/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-full bg-[#ff6b35] text-black font-limelight tracking-widest text-center py-3 px-4 font-bold hover:bg-white hover:text-[#ff6b35] transition-colors duration-200 uppercase"
+                className="block w-full bg-[#ff6b35] text-black font-new-amsterdam tracking-widest text-center py-3 px-4 font-bold hover:bg-white hover:text-[#ff6b35] transition-colors duration-200 uppercase"
               >
                 @jecrcuniversity
               </a>
@@ -76,7 +76,7 @@ const Footer = () => {
               <div className="text-left">
                 <a
                   href="tel:+1234567890"
-                  className="text-white hover:text-[#ff6b35] transition-colors duration-200 font-limelight tracking-wide"
+                  className="text-white hover:text-[#ff6b35] transition-colors duration-200 font-new-amsterdam tracking-wide"
                 >
                   +91 96643 30564
                 </a>
@@ -86,7 +86,7 @@ const Footer = () => {
               <div className="text-right">
                 <a
                   href="tel:+9876543210"
-                  className="text-white hover:text-[#ff6b35] transition-colors duration-200 font-limelight tracking-wide"
+                  className="text-white hover:text-[#ff6b35] transition-colors duration-200 font-new-amsterdam tracking-wide"
                 >
                  +91 861 996 4199
                 </a>
@@ -96,7 +96,7 @@ const Footer = () => {
               <div className="text-left">
                 <a
                   href="tel:+1122334455"
-                  className="text-white hover:text-[#ff6b35] transition-colors duration-200 font-limelight tracking-wide"
+                  className="text-white hover:text-[#ff6b35] transition-colors duration-200 font-new-amsterdam tracking-wide"
                 >
                   +91 80031 50294
                 </a>
@@ -115,7 +115,7 @@ const Footer = () => {
                 {/* Build by <Link className="text-blue-600" href="https://amanjanwani.me">Aman Janwani</Link> and designed by Saksham Saraogi */}
               </p>
             </div>
-        <div className="text-[#ff6b35]/40 md:hidden text-5xl uppercase -mb-12 font-limelight tracking-widest">
+        <div className="text-[#ff6b35]/40 md:hidden text-5xl uppercase -mb-12 font-new-amsterdam tracking-widest">
           JU Rhythm
         </div>
           </div>

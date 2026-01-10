@@ -73,7 +73,7 @@ export function LabCard({
       <div>
         <Link
           href={href}
-          className="inline-flex font-limelight tracking-widest rounded-full bg-[#ff6b35] px-4 py-2 text-sm font-bold text-black hover:bg-white hover:text-[#ff6b35] border-2 border-[#ff6b35] duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#ff6b35] uppercase"
+          className="inline-flex font-new-amsterdam tracking-widest rounded-full bg-[#ff6b35] px-4 py-2 text-sm font-bold text-black hover:bg-white hover:text-[#ff6b35] border-2 border-[#ff6b35] duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#ff6b35] uppercase"
           aria-label={`Read more about ${title}`}
           >
           Read More

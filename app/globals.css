@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Delius&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Delius&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -80,7 +80,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-limelight: var(--font-limelight), 'Limelight', serif;
+  --font-new-amsterdam: var(--font-new-amsterdam), 'New Amsterdam', serif;
   --font-delius: var(--font-delius), 'Delius', cursive;
   --font-sans: var(--font-delius);
   --font-mono: var(--font-delius);
@@ -195,7 +195,7 @@
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-limelight), 'Limelight', serif;
+    font-family: var(--font-new-amsterdam), 'New Amsterdam', serif;
     letter-spacing: 0.01em;
     font-weight: 600;
   }
@@ -356,4 +356,18 @@
   .animate-marquee {
     animation: marquee 15s linear infinite;
   }
+}
+
+/* Twinkle Animation for Stars */
+@keyframes twinkle {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.animate-twinkle {
+  animation: twinkle 2s ease-in-out infinite;
 }

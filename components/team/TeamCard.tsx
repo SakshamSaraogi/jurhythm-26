@@ -6,12 +6,13 @@ interface TeamCardProps {
   name: string;
   position: string;
   image: string;
+  className?: string;
 }
 
-export const TeamCard = ({ name, position, image }: TeamCardProps) => {
+export const TeamCard = ({ name, position, image, className }: TeamCardProps) => {
   return (
     <motion.div
-      className="group relative overflow-hidden rounded-xl bg-black border-2 border-[#ff6b35] hover:border-white transition-all duration-300"
+      className={`group relative overflow-hidden rounded-xl bg-black border-2 border-[#ff6b35] hover:border-white transition-all duration-300 ${className || ''}`}
       whileHover={{ scale: 1.05, y: -10 }}
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
@@ -29,7 +30,7 @@ export const TeamCard = ({ name, position, image }: TeamCardProps) => {
       </div>
       
       <div className="absolute bottom-0 left-0 right-0 p-6 text-white transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-        <h3 className="text-2xl font-limelight uppercase tracking-widest mb-1 text-[#ff6b35] drop-shadow-[0_0_20px_rgba(255,107,53,0.5)]">
+        <h3 className="text-2xl font-new-amsterdam uppercase tracking-widest mb-1 text-[#ff6b35] drop-shadow-[0_0_20px_rgba(255,107,53,0.5)]">
           {name}
         </h3>
         <p className="text-white font-delius font-semibold text-sm uppercase tracking-wider">
