@@ -104,7 +104,7 @@ const VerticlesSections = () => {
           <div
             key={i}
             ref={(el) => setRef(el, i)}
-            className="absolute  border-2 border-black rounded-xl bg-black"
+            className="absolute border-2 border-[#ff6b35] rounded-xl bg-black"
           >
             <video
               className="w-full max-w-2xl rounded-lg"
@@ -120,18 +120,18 @@ const VerticlesSections = () => {
             <BorderBeam
               duration={6}
               size={400}
-              className="from-transparent via-orange-300 to-transparent"
+              className="from-transparent via-[#ff6b35] to-transparent"
             />
             <BorderBeam
               duration={6}
               delay={3}
               size={400}
               borderWidth={2}
-              className="from-transparent via-blue-300 to-transparent"
+              className="from-transparent via-white to-transparent"
             />
             <div className="absolute inset-0 bg-black/40" />
             <div className="absolute bottom-0 flex items-center justify-center p-6 w-full text-white">
-              <h2 className="text-4xl font-anton tracking-wider text-white/40 mb-2">{i + 1 === 1 ? "Software" : i + 1 === 2 ? "Hardware" : "Esports"}</h2>
+              <h2 className="text-4xl font-limelight tracking-widest text-[#ff6b35] mb-2 uppercase">{i + 1 === 1 ? "Software" : i + 1 === 2 ? "Hardware" : "Esports"}</h2>
             </div>
           </div>
         ))}

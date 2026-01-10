@@ -1,13 +1,30 @@
-import React from "react";
+"use client";
+
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
 function Navbar() {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 50);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <div className="flex justify-start z-50 items-center gap-3 w-full py-4 px-5 md:px-10 max-w-screen fixed top-0  ">
+    <div className={`flex justify-start z-50 items-center gap-3 w-full py-4 px-5 md:px-10 max-w-screen fixed top-0 transition-all duration-300 ${
+      scrolled 
+        ? 'bg-black/80 backdrop-blur-sm border-b border-[#ff6b35]/30' 
+        : 'bg-transparent border-b border-transparent'
+    }`}>
       <Link
         href="/"
-        className=" flex justify-start w-1/3 items-center flex-1 stroke-white"
+        className="flex justify-start w-1/3 items-center flex-1 stroke-[#ff6b35] hover:stroke-white transition-all duration-300"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -15,7 +32,7 @@ function Navbar() {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="size-6 stroke-white"
+          className="size-6 stroke-[#ff6b35]"
         >
           <path
             strokeLinecap="round"
@@ -25,25 +42,22 @@ function Navbar() {
         </svg>
       </Link>
       <div className="flex justify-center w-1/3 items-center flex-1">
-        {/* Logo */}
-
-        <Link href="/">
-          <Image 
-            src="/logo.gif" 
-            alt="Logo" 
-            width={150} 
-            height={150} 
-            priority
-            placeholder="blur"
-            blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
-          />
+        <Link href="/" className="transform hover:scale-110 transition-transform duration-300">
+          <h1 className="text-[#ff6b35] font-limelight text-2xl md:text-3xl lg:text-4xl tracking-widest uppercase">
+            JU Rhythm
+          </h1>
         </Link>
       </div>
       <div className="flex gap-5 min-w-1/3 items-center justify-end">
-        {/* Links */}
+        <Link
+          href="/team"
+          className="text-white hover:text-[#ff6b35] transition-colors duration-300 font-delius font-semibold tracking-wide text-sm md:text-base uppercase"
+        >
+          Team
+        </Link>
         <Link
           href="/sponsors"
-          className="text-white hover:text-white/80 transition-colors duration-200 font-anton tracking-wide"
+          className="text-white hover:text-[#ff6b35] transition-colors duration-300 font-delius font-semibold tracking-wide text-sm md:text-base uppercase"
         >
           Sponsors
         </Link>
@@ -54,7 +68,7 @@ function Navbar() {
               alt="instagram"
               width={35}
               height={35}
-              className="text-white stroke-white"
+              className="text-white stroke-white opacity-80 hover:opacity-100 transition-opacity"
               loading="lazy"
             />
           </Link>
@@ -64,7 +78,7 @@ function Navbar() {
               alt="linkedin"
               width={35}
               height={35}
-              className="text-white stroke-white"
+              className="text-white stroke-white opacity-80 hover:opacity-100 transition-opacity"
               loading="lazy"
             />
           </Link>
@@ -76,9 +90,9 @@ function Navbar() {
               footerElement.scrollIntoView({ behavior: 'smooth' });
             }
           }}
-          className="hidden md:block bg-[#0227F0] text-white hover:bg-transparent border-2 border-[#0227F0] hover:border-white duration-300 cursor-pointer  px-6 py-2 rounded-full font-anton  transition"
+          className="hidden md:block bg-[#ff6b35] text-black hover:bg-white hover:text-[#ff6b35] border-2 border-[#ff6b35] duration-300 cursor-pointer px-6 py-2 rounded-full font-limelight font-bold tracking-widest text-sm transition-all transform hover:scale-105 uppercase"
         >
-          Get in touch
+          Contact
         </button>
       </div>
     </div>

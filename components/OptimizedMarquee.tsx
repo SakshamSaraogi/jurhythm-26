@@ -18,7 +18,7 @@ const OptimizedMarquee: React.FC<OptimizedMarqueeProps> = ({ items, className })
         {repeatedItems.map((item, index) => (
           <React.Fragment key={`${item}-${index}`}>
             <div className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-black" />
-            <span className="text-black text-lg sm:text-2xl font-anton uppercase tracking-wider text-nowrap">
+            <span className="text-black text-lg sm:text-2xl font-delius uppercase tracking-wider text-nowrap">
               {item}
             </span>
           </React.Fragment>

@@ -1,6 +1,6 @@
 # Sponsors Directory
 
-This directory contains logos for all sponsors of JU Innov8 3.0.
+This directory contains logos for all sponsors of JU Rhythm.
 
 ## Instructions
 

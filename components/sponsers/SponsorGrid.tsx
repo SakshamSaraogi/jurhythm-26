@@ -113,7 +113,7 @@ const SponsorGrid = () => {
               {/* Sponsor Name Tooltip on Hover */}
               {hoveredId === sponsor.id && (
                 <div className="absolute bottom-4 left-4 right-4">
-                  <p className="text-white font-anton uppercase tracking-wide text-sm text-center truncate">
+                  <p className="text-white font-delius uppercase tracking-wide text-sm text-center truncate">
                     {sponsor.name}
                   </p>
                 </div>
@@ -152,7 +152,7 @@ const SponsorGrid = () => {
                 footerElement.scrollIntoView({ behavior: 'smooth' });
               }
             }}
-            className="relative inline-flex items-center gap-2 bg-blue-600 text-white border-2 border-blue-600 hover:bg-transparent hover:border-white duration-300 font-anton tracking-wide py-3 px-8 text-lg rounded-full cursor-pointer"
+            className="relative inline-flex items-center gap-2 bg-blue-600 text-white border-2 border-blue-600 hover:bg-transparent hover:border-white duration-300 font-delius tracking-wide py-3 px-8 text-lg rounded-full cursor-pointer"
           >
             <span>Become a Sponsor</span>
             <svg

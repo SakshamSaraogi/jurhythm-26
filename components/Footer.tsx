@@ -25,14 +25,14 @@ const Footer = () => {
 
       {/* Content overlay */}
       <div className="relative z-10 flex items-end justify-between md:items-end md:justify-center min-h-screen px-6">
-        <div className="text-white/40 hidden md:block stroke-2 stroke-amber-300 text-3xl md:text-[10rem] uppercase -mb-15  font-big-shoulders-extrabold tracking-wider">
-          Ju Innov8 3.0
+        <div className="text-[#ff6b35]/30 hidden md:block text-3xl md:text-[10rem] uppercase -mb-15 font-limelight tracking-widest drop-shadow-[0_0_30px_rgba(255,107,53,0.3)]">
+          Ju Rhythm
         </div>
         {/* Collaboration Form */}
-        <div className="bg-white/30 backdrop-blur-sm mx-auto rounded-t-full px-8 md:px-12 pt-8 md:pt-12 max-w-[25rem] w-full shadow-2xl">
+        <div className="bg-black/60 backdrop-blur-sm mx-auto rounded-t-full px-8 md:px-12 pt-8 md:pt-12 max-w-[25rem] w-full border-t-4 border-[#ff6b35]">
           {/* Header */}
           <div className="text-center mb-8 flex flex-col gap-3 h-full justify-between items-center">
-            <h1 className="text-xl md:text-3xl w-full  uppercase font-anton tracking-wide text-white mb-6">
+            <h1 className="text-xl md:text-3xl w-full uppercase font-limelight tracking-widest text-[#ff6b35] mb-6">
               Find US!
             </h1>
 
@@ -56,7 +56,7 @@ const Footer = () => {
                 href="https://www.instagram.com/student_council_ju/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-full bg-blue-600 text-white font-anton tracking-widest text-center py-3 px-4 font-semibold hover:bg-blue-700 transition-colors duration-200"
+                className="block w-full bg-[#ff6b35] text-black font-limelight tracking-widest text-center py-3 px-4 font-bold hover:bg-white hover:text-[#ff6b35] transition-colors duration-200 uppercase"
               >
                 @Student_Council_JU
               </a>
@@ -64,7 +64,7 @@ const Footer = () => {
                 href="https://www.instagram.com/jecrcuniversity/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-full bg-blue-600 text-white font-anton tracking-widest text-center py-3 px-4 font-semibold hover:bg-blue-700 transition-colors duration-200"
+                className="block w-full bg-[#ff6b35] text-black font-limelight tracking-widest text-center py-3 px-4 font-bold hover:bg-white hover:text-[#ff6b35] transition-colors duration-200 uppercase"
               >
                 @jecrcuniversity
               </a>
@@ -76,7 +76,7 @@ const Footer = () => {
               <div className="text-left">
                 <a
                   href="tel:+1234567890"
-                  className="text-white hover:text-white/80 transition-colors duration-200 font-anton tracking-wide"
+                  className="text-white hover:text-[#ff6b35] transition-colors duration-200 font-limelight tracking-wide"
                 >
                   +91 96643 30564
                 </a>
@@ -86,7 +86,7 @@ const Footer = () => {
               <div className="text-right">
                 <a
                   href="tel:+9876543210"
-                  className="text-white hover:text-white/80 transition-colors duration-200 font-anton tracking-wide"
+                  className="text-white hover:text-[#ff6b35] transition-colors duration-200 font-limelight tracking-wide"
                 >
                  +91 861 996 4199
                 </a>
@@ -96,7 +96,7 @@ const Footer = () => {
               <div className="text-left">
                 <a
                   href="tel:+1122334455"
-                  className="text-white hover:text-white/80 transition-colors duration-200 font-anton tracking-wide"
+                  className="text-white hover:text-[#ff6b35] transition-colors duration-200 font-limelight tracking-wide"
                 >
                   +91 80031 50294
                 </a>
@@ -104,19 +104,19 @@ const Footer = () => {
             </div>
             <div className="w-full">
               {/* copyright */}
-              <p className="text-sm text-center text-white font-anton ">
-                &copy; {new Date().getFullYear()} Ju Innov8 . All rights
+              <p className="text-sm text-center text-white font-delius ">
+                &copy; {new Date().getFullYear()} JU Rhythm. All rights
                 reserved.
               </p>
             </div>
             <div className="w-full">
               {/* copyright */}
-              <p className="text-sm text-center text-white font-anton ">
-                Build by <Link className="text-blue-600" href="https://amanjanwani.me">Aman Janwani</Link> and designed by Saksham Saraogi
+              <p className="text-sm text-center text-white font-delius ">
+                {/* Build by <Link className="text-blue-600" href="https://amanjanwani.me">Aman Janwani</Link> and designed by Saksham Saraogi */}
               </p>
             </div>
-        <div className="text-white/40 md:hidden  stroke-2 stroke-amber-300 text-5xl uppercase -mb-12  font-big-shoulders-extrabold tracking-wider">
-          Ju Innov8 3.0
+        <div className="text-[#ff6b35]/40 md:hidden text-5xl uppercase -mb-12 font-limelight tracking-widest">
+          JU Rhythm
         </div>
           </div>
         </div>

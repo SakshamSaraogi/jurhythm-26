@@ -43,25 +43,16 @@ function Hero() {
           {/* Loading state before 3D model */}
           {!show3D && (
             <div className="absolute inset-0 z-10 flex items-center justify-center">
-              <LoadingSpinner message="Initializing Robot Model..." />
+              <LoadingSpinner message="Initializing Carnival Model..." />
             </div>
           )}
           
           {/* Optimized 3D Model with conditional loading */}
           {show3D && (
             <div className="absolute inset-0 z-10 pointer-events-none">
-              {/* <Performance3DLoader 
-                className="w-full h-full"
-                fallback={
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <LoadingSpinner message="Loading Robot Model..." />
-                  </div>
-                }
-              > */}
                 <RenderModel>
                   <Model />
                 </RenderModel>
-              {/* </Performance3DLoader> */}
             </div>
           )}
           
@@ -70,38 +61,37 @@ function Hero() {
             <div className="absolute inset-0 z-20 bg-black/60 backdrop-blur-sm flex items-center justify-center transition-opacity duration-1000">
               <div className="text-center">
                 <LoadingSpinner message="Loading Experience..." />
-                <p className="mt-4 text-white/60 font-anton text-sm">Preparing 3D Environment...</p>
+                <p className="mt-4 text-white font-delius text-sm uppercase tracking-wide">Preparing 3D Environment...</p>
               </div>
             </div>
           )}
         </div>
         
         <div className="flex flex-col z-30 justify-end items-start gap-4 w-full">
-          <h1 className="uppercase font-anton text-white text-6xl md:text-8xl">
-            JU Innov8 3.0
+          <h1 className="uppercase font-limelight text-[#ff6b35] text-6xl md:text-8xl lg:text-[10rem] tracking-widest drop-shadow-[0_0_30px_rgba(255,107,53,0.6)]">
+            JU Rhythm
           </h1>
-          <p className="font-sans capitalize text-md max-w-2xl text-white line-clamp-2 md:line-clamp-3">
-            Immerse yourself in a hub of technological innovation at INNOV8,
-            where the brightest minds in Software, Hardware, and eSports
-            converge to compete and collaborate. From crafting software
-            solutions to engineering hardware prototypes and
-            mastering the world of gaming.
+          <p className="font-delius text-base md:text-lg max-w-2xl text-white line-clamp-2 md:line-clamp-3 tracking-wide leading-relaxed">
+            Experience the ultimate celebration of talent at JU Rhythm,
+            where creativity meets competition. From cultural performances to 
+            sports championships, technical innovations to media showcases,
+            join us in this spectacular fest of passion and excellence.
           </p>
-          <h2 className="font-anton text-white text-2xl md:text-4xl">9th - 11th October</h2>
+          <h2 className="font-delius text-[#ff6b35] text-xl md:text-3xl font-bold tracking-widest uppercase">9th - 11th October</h2>
           <div className="flex flex-wrap gap-4">
             <button onClick={() => {
               const footerElement = document.getElementById('domains');
               if (footerElement) {
                 footerElement.scrollIntoView({ behavior: 'smooth' });
               }
-            }} className="bg-blue-600 text-white border-blue-600 border-2 hover:bg-transparent hover:border-white duration-300 cursor-pointer font-anton tracking-wide py-3 px-8 text-lg rounded-full">
+            }} className="bg-[#ff6b35] text-black border-2 border-[#ff6b35] hover:bg-white hover:text-[#ff6b35] duration-300 cursor-pointer font-limelight font-bold tracking-widest py-3 px-8 text-base md:text-lg rounded-full transition-all transform hover:scale-105 uppercase">
               Register Now
             </button>
             <a 
               href="/Guidelines.pdf" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="bg-transparent text-white border-white border-2 hover:bg-white hover:text-black duration-300 cursor-pointer font-anton tracking-wide py-3 px-8 text-lg rounded-full inline-flex items-center gap-2"
+              className="bg-transparent text-[#ff6b35] border-[#ff6b35] border-2 hover:bg-[#ff6b35] hover:text-black duration-300 cursor-pointer font-limelight font-bold tracking-widest py-3 px-8 text-base md:text-lg rounded-full inline-flex items-center gap-2 transition-all transform hover:scale-105 uppercase"
             >
               <span>Guidelines</span>
               <svg 

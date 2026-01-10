@@ -1,36 +1,38 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Limelight, Delius } from "next/font/google";
 import "./globals.css";
 import { GoogleAnalytics } from '@next/third-parties/google'
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const limelight = Limelight({
+  weight: "400",
+  variable: "--font-limelight",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const delius = Delius({
+  weight: "400",
+  variable: "--font-delius",
   subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "JU Innov8 3.0 | Innovation & Technology Summit",
-  description: "Join JU Innov8 3.0, the premier innovation and technology summit featuring cutting-edge presentations, networking opportunities, and breakthrough solutions shaping the future.",
-  keywords: ["innovation", "technology", "summit", "JU Innov8", "conference", "tech event"],
-  authors: [{ name: "JU Innov8 Team" }],
-  creator: "JU Innov8",
-  publisher: "JU Innov8",
+  title: "JU Rhythm | Annual Cultural & Sports Fest",
+  description: "Join JU Rhythm, the ultimate cultural and sports fest featuring music, dance, sports competitions, technical challenges, and media events celebrating talent and creativity.",
+  keywords: ["cultural fest", "sports", "technical", "JU Rhythm", "college fest", "cultural event", "media"],
+  authors: [{ name: "JU Rhythm Team" }],
+  creator: "JU Rhythm",
+  publisher: "JU Rhythm",
   openGraph: {
-    title: "JU Innov8 3.0 | Innovation & Technology Summit",
-    description: "Join JU Innov8 3.0, the premier innovation and technology summit featuring cutting-edge presentations, networking opportunities, and breakthrough solutions shaping the future.",
+    title: "JU Rhythm | Annual Cultural & Sports Fest",
+    description: "Join JU Rhythm, the ultimate cultural and sports fest featuring music, dance, sports competitions, technical challenges, and media events celebrating talent and creativity.",
     type: "website",
     locale: "en_US",
-    siteName: "JU Innov8 3.0",
+    siteName: "JU Rhythm",
   },
   twitter: {
     card: "summary_large_image",
-    title: "JU Innov8 3.0 | Innovation & Technology Summit",
-    description: "Join JU Innov8 3.0, the premier innovation and technology summit featuring cutting-edge presentations, networking opportunities, and breakthrough solutions shaping the future.",
+    title: "JU Rhythm | Annual Cultural & Sports Fest",
+    description: "Join JU Rhythm, the ultimate cultural and sports fest featuring music, dance, sports competitions, technical challenges, and media events celebrating talent and creativity.",
   },
   robots: {
     index: true,
@@ -47,7 +49,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${limelight.variable} ${delius.variable} antialiased`}
       >
         {children}
       </body>

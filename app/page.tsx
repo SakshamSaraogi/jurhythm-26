@@ -36,7 +36,7 @@ export default function Home() {
 
       if (!container) return
 
-      // LabSection background
+      // LabSection background - Pure black
       ScrollTrigger.create({
         trigger: "#lab",
         start: "top center",
@@ -47,15 +47,15 @@ export default function Home() {
           gsap.to(container, { backgroundColor: "#000000", duration: 1.5, ease: "power2.inOut" }),
       })
 
-      // Team background
+      // Team background - Pure black
       ScrollTrigger.create({
         trigger: "#team",
         start: "top center",
         end: "bottom center",
         onEnter: () =>
-          gsap.to(container, { backgroundColor: "#0f1ef0", duration: 1.5, ease: "power2.inOut" }),
+          gsap.to(container, { backgroundColor: "#000000", duration: 1.5, ease: "power2.inOut" }),
         onEnterBack: () =>
-          gsap.to(container, { backgroundColor: "#0f1ef0", duration: 1.5, ease: "power2.inOut" }),
+          gsap.to(container, { backgroundColor: "#000000", duration: 1.5, ease: "power2.inOut" }),
       })
     }, containerRef)
 
@@ -74,7 +74,25 @@ export default function Home() {
       <div ref={containerRef} className="w-full min-h-screen bg-black relative transition-colors duration-1000">
         
       <LazyComponent fallback={<div className="h-96 bg-gray-800 animate-pulse" />}>
-          <VerticlesSections />
+          <div className="relative">
+            {/* Orange Shimmer Effect */}
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <div className="absolute -inset-[100%] bg-gradient-to-r from-transparent via-[#ff6b35]/5 to-transparent animate-shimmer" 
+                   style={{ animation: 'shimmer 8s infinite linear' }}></div>
+            </div>
+            
+            {/* Orange Particles */}
+            <div className="absolute inset-0 overflow-hidden pointer-events-none opacity-30">
+              <div className="absolute top-20 left-[10%] w-1 h-1 rounded-full bg-[#ff6b35] animate-float-slow"></div>
+              <div className="absolute top-40 right-[20%] w-1.5 h-1.5 rounded-full bg-white animate-float-medium"></div>
+              <div className="absolute top-60 left-[30%] w-1 h-1 rounded-full bg-[#ff6b35] animate-float-fast"></div>
+              <div className="absolute top-80 right-[15%] w-1 h-1 rounded-full bg-white animate-float-slow"></div>
+              <div className="absolute top-[30rem] left-[25%] w-1.5 h-1.5 rounded-full bg-[#ff6b35] animate-float-medium"></div>
+              <div className="absolute top-[40rem] right-[35%] w-1 h-1 rounded-full bg-white animate-float-fast"></div>
+            </div>
+            
+            <VerticlesSections />
+          </div>
         </LazyComponent>
         
         

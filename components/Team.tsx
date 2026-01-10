@@ -23,7 +23,7 @@ const Team = () => {
       <div className="block md:hidden">
         {/* Text at top for mobile */}
         <div className="text-center mb-8">
-          <h1 className="font-extrabold uppercase font-anton leading-none tracking-wide text-[30vw] md:text-[20vw]">Team</h1>
+          <h1 className="font-extrabold uppercase font-delius leading-none tracking-wide text-[30vw] md:text-[20vw]">Team</h1>
         </div>
         
         {/* Team members cards for mobile */}
@@ -43,7 +43,7 @@ const Team = () => {
                 onLoad={() => setImageLoaded({...imageLoaded, [member.name]: true})}
               />
               <div className="flex-1">
-                <h3 className="text-white font-anton text-xl uppercase tracking-wide">{member.name}</h3>
+                <h3 className="text-white font-delius text-xl uppercase tracking-wide">{member.name}</h3>
                 <p className="text-white/80 text-sm mt-1">{member.position}</p>
               </div>
             </div>
@@ -60,7 +60,7 @@ const Team = () => {
                 className="w-20 h-28 rounded-lg object-cover border-2 border-white/30"
               />
               <div className="flex-1">
-                <h3 className="text-white font-anton text-lg uppercase tracking-wide">{member.name}</h3>
+                <h3 className="text-white font-delius text-lg uppercase tracking-wide">{member.name}</h3>
                 <p className="text-white/80 text-xs mt-1">{member.position}</p>
               </div>
             </div>
@@ -72,7 +72,7 @@ const Team = () => {
       <div className="hidden md:block">
         {/* Large TEAM title */}
         <div className="text-center mb-12">
-          <h1 className="font-extrabold uppercase font-anton leading-none tracking-wide text-[44vw]">Team</h1>
+          <h1 className="font-extrabold uppercase font-delius leading-none tracking-wide text-[44vw]">Team</h1>
         </div>
         
         {/* Team Cards */}
@@ -92,7 +92,7 @@ const Team = () => {
                   blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
                   onLoad={() => setImageLoaded({...imageLoaded, [member.name]: true})}
                 />
-                <h3 className="text-white font-anton text-2xl uppercase tracking-wide mb-2">{member.name}</h3>
+                <h3 className="text-white font-delius text-2xl uppercase tracking-wide mb-2">{member.name}</h3>
                 <p className="text-white/80 text-base">{member.position}</p>
               </div>
             ))}
@@ -107,7 +107,7 @@ const Team = () => {
                   height={140}
                   className="w-28 h-36 rounded-xl object-cover border-2 border-white/30 mb-3"
                 />
-                <h3 className="text-white font-anton text-lg uppercase tracking-wide mb-1">{member.name}</h3>
+                <h3 className="text-white font-delius text-lg uppercase tracking-wide mb-1">{member.name}</h3>
                 <p className="text-white/80 text-sm">{member.position}</p>
               </div>
             ))}

@@ -34,7 +34,7 @@ export function LabCard({
 
       {/* Card Body */}
 
-        <div className="overflow-hidden rounded-2xl border border-neutral-700 bg-black relative z-10">
+        <div className="overflow-hidden rounded-2xl border-2 border-[#ff6b35] bg-black relative z-10">
           <Image
             src={imageUrl || "/placeholder.svg"}
             alt={imageAlt}
@@ -42,18 +42,18 @@ export function LabCard({
             height={720}
             className="h-60 w-full rounded-2xl object-cover transition-transform duration-300 group-hover:scale-[1.02]"
           />
-           {/* <BorderBeam
+           <BorderBeam
                         duration={6}
                         size={400}
                         borderWidth={2}
-                        className="from-transparent via-orange-300 to-transparent"
-                      /> */}
+                        className="from-transparent via-[#ff6b35] to-transparent"
+                      />
                       <BorderBeam
                         duration={6}
                         delay={3}
                         size={400}
                         borderWidth={2}
-                        className="from-transparent via-blue-300 to-transparent"
+                        className="from-transparent via-white to-transparent"
                       />
         </div>
 
@@ -73,7 +73,7 @@ export function LabCard({
       <div>
         <Link
           href={href}
-          className="inline-flex font-anton tracking-wide rounded-full bg-blue-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-transparent border-2 border-blue-600 hover:border-white duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400"
+          className="inline-flex font-limelight tracking-widest rounded-full bg-[#ff6b35] px-4 py-2 text-sm font-bold text-black hover:bg-white hover:text-[#ff6b35] border-2 border-[#ff6b35] duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#ff6b35] uppercase"
           aria-label={`Read more about ${title}`}
           >
           Read More

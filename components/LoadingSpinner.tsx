@@ -20,7 +20,7 @@ const LoadingSpinner: React.FC<LoadingSpinnerProps> = ({
       </div>
       
       {/* Message */}
-      <div className="text-white/80 text-sm font-anton tracking-wide animate-pulse">
+      <div className="text-white/80 text-sm font-delius tracking-wide animate-pulse">
         {message}
       </div>
 
