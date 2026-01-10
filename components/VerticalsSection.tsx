@@ -77,8 +77,8 @@ export default function VerticalsSection() {
           },
           lineWidth: {
             explosion: {
-              min: 3,
-              max: 10,
+              min: 1,
+              max: 3,
             },
             trace: {
               min: 0.5,
