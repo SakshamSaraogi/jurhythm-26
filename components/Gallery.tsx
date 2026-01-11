@@ -97,7 +97,7 @@ export default function Gallery() {
 
       <div className="relative z-10 w-full max-w-[80%] mx-auto flex flex-col gap-16">
         <div className="w-full text-center relative group cursor-pointer">
-          <h2 className="text-5xl md:text-8xl duration-500 font-new-amsterdam tracking-wide font-bold text-center text-[#F4C542] drop-shadow-md uppercase">
+          <h2 className="text-5xl md:text-8xl duration-500 font-new-amsterdam tracking-wide font-bold text-center text-[#fbbf24] drop-shadow-[0_0_40px_rgba(251,191,36,0.6)] uppercase">
             Glimpse
           </h2>
         </div>

@@ -1,11 +1,12 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import Image from "next/image";
 import Link from "next/link";
+import { Home, Users, Award, Phone, Menu, X } from "lucide-react";
 
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -16,74 +17,94 @@ function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const navItems = [
+    { href: "/", icon: Home, label: "Home" },
+    { href: "/team", icon: Users, label: "Team" },
+    { href: "/sponsors", icon: Award, label: "Sponsors" },
+    { href: "/contact", icon: Phone, label: "Contact" },
+  ];
+
   return (
-    <div className={`flex justify-between z-50 items-center gap-3 w-full py-4 px-5 md:px-10 max-w-screen fixed top-0 transition-all duration-300 ${
-      scrolled 
-        ? 'bg-black/90 backdrop-blur-md border-b-2 border-[#fbbf24]/50' 
-        : 'bg-transparent border-b border-transparent'
-    }`}>
-      <Link
-        href="/"
-        className="flex justify-start items-center stroke-[#fbbf24] hover:stroke-[#fde68a] transition-all duration-300"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth={1.5}
-          stroke="currentColor"
-          className="size-6 stroke-[#fbbf24] hover:stroke-[#fde68a]"
+    <>
+      {/* Floating Circular Nav - Desktop (One Line) */}
+      <div className="hidden lg:block fixed top-8 right-8 z-50 w-[33vw] max-w-md">
+        <div 
+          className={`
+            relative rounded-full
+            bg-black/80 backdrop-blur-xl
+            border-2 border-[#fbbf24]/50
+            shadow-[0_0_40px_rgba(251,191,36,0.3)]
+            transition-all duration-500 ease-out
+            ${scrolled ? 'translate-y-0 opacity-100' : '-translate-y-4 opacity-90'}
+          `}
         >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
-          />
-        </svg>
-      </Link>
-      <div className="flex gap-5 items-center justify-end">
-        <Link
-          href="/team"
-          className="text-white hover:bg-gradient-to-r hover:from-[#fbbf24] hover:to-[#fde68a] hover:bg-clip-text hover:text-transparent transition-all duration-300 font-delius font-semibold tracking-wide text-sm md:text-base uppercase"
-        >
-          Team
-        </Link>
-        <Link
-          href="/sponsors"
-          className="text-white hover:bg-gradient-to-r hover:from-[#fbbf24] hover:to-[#fde68a] hover:bg-clip-text hover:text-transparent transition-all duration-300 font-delius font-semibold tracking-wide text-sm md:text-base uppercase"
-        >
-          Sponsors
-        </Link>
-        <div className="gap-1 hidden md:flex">
-          <Link href="https://www.instagram.com/student_council_ju/">
-            <Image
-              src="/images/icons/insta.svg"
-              alt="instagram"
-              width={35}
-              height={35}
-              className="text-white stroke-white opacity-80 hover:opacity-100 transition-opacity"
-              loading="lazy"
-            />
-          </Link>
-          <Link href="https://www.linkedin.com/company/student-council-jecrc-university/posts/?feedView=all">
-            <Image
-              src="/images/icons/linkedin.svg"
-              alt="linkedin"
-              width={35}
-              height={35}
-              className="text-white stroke-white opacity-80 hover:opacity-100 transition-opacity"
-              loading="lazy"
-            />
-          </Link>
+          <div className="flex items-center justify-around p-4 px-6">
+            {navItems.map((item, index) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="group relative flex flex-col items-center gap-1 transition-all duration-300"
+              >
+                <div className="relative">
+                  <div className="absolute inset-0 bg-[#fbbf24] rounded-full blur-lg opacity-0 group-hover:opacity-60 transition-opacity duration-300" />
+                  <item.icon 
+                    className="w-6 h-6 text-gray-400 group-hover:text-[#fbbf24] transition-all duration-300 relative z-10 group-hover:scale-110" 
+                    strokeWidth={2}
+                  />
+                </div>
+                <span className="text-[10px] font-new-amsterdam uppercase tracking-wider text-gray-500 group-hover:text-[#fbbf24] transition-colors duration-300">
+                  {item.label}
+                </span>
+              </Link>
+            ))}
+          </div>
         </div>
-        <Link 
-          href="/contact"
-          className="hidden md:block bg-gradient-to-r from-[#fbbf24] to-[#fde68a] text-black hover:bg-gradient-to-r hover:from-[#fde68a] hover:to-[#fbbf24] border-2 border-[#fbbf24] duration-300 cursor-pointer px-6 py-2 rounded-full font-new-amsterdam font-bold tracking-widest text-sm transition-all transform hover:scale-105 uppercase shadow-[0_0_15px_rgba(251,191,36,0.3)] hover:shadow-[0_0_25px_rgba(251,191,36,0.6)]"
-        >
-          Contact
-        </Link>
       </div>
-    </div>
+
+      {/* Mobile Hamburger Menu */}
+      <div className="lg:hidden fixed top-6 right-6 z-50">
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="p-3 rounded-full bg-black/80 backdrop-blur-xl border-2 border-[#fbbf24]/50 shadow-[0_0_30px_rgba(251,191,36,0.3)] transition-all duration-300 hover:scale-110"
+        >
+          {isOpen ? (
+            <X className="w-6 h-6 text-[#fbbf24]" />
+          ) : (
+            <Menu className="w-6 h-6 text-[#fbbf24]" />
+          )}
+        </button>
+      </div>
+
+      {/* Mobile Menu Dropdown */}
+      <div
+        className={`
+          lg:hidden fixed top-20 right-6 z-40
+          transition-all duration-500 ease-out
+          ${isOpen ? 'opacity-100 translate-y-0 pointer-events-auto' : 'opacity-0 -translate-y-4 pointer-events-none'}
+        `}
+      >
+        <div className="rounded-3xl bg-black/90 backdrop-blur-xl border-2 border-[#fbbf24]/50 shadow-[0_0_40px_rgba(251,191,36,0.3)] p-6 min-w-[200px]">
+          <div className="flex flex-col gap-4">
+            {navItems.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                onClick={() => setIsOpen(false)}
+                className="group flex items-center gap-3 transition-all duration-300"
+              >
+                <item.icon 
+                  className="w-5 h-5 text-gray-400 group-hover:text-[#fbbf24] transition-colors duration-300" 
+                  strokeWidth={2}
+                />
+                <span className="text-sm font-new-amsterdam uppercase tracking-wider text-gray-400 group-hover:text-[#fbbf24] transition-colors duration-300">
+                  {item.label}
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </div>
+    </>
   );
 }
 

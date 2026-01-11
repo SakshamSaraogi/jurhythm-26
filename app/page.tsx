@@ -32,6 +32,10 @@ const Gallery = dynamic(() => import("@/components/Gallery"), {
   loading: () => <div className="h-96 bg-black animate-pulse" />
 })
 
+const AfterMoviesCarousel = dynamic(() => import("@/components/AfterMoviesCarousel").then(mod => ({ default: mod.AfterMoviesCarousel })), {
+  loading: () => <div className="h-screen bg-black animate-pulse" />
+})
+
 gsap.registerPlugin(ScrollTrigger)
 
 export default function Home() {
@@ -107,6 +111,11 @@ export default function Home() {
           <Gallery />
         </LazyComponent>
       </div>
+      
+      {/* AfterMovies Carousel Section */}
+      <LazyComponent fallback={<div className="h-screen bg-black animate-pulse" />}>
+        <AfterMoviesCarousel />
+      </LazyComponent>
       
       {/* Footer with Lazy Loading */}
       <LazyComponent fallback={<div className="h-screen bg-black animate-pulse" />}>
