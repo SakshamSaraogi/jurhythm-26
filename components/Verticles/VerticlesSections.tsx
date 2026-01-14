@@ -35,11 +35,6 @@
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import RenderModel from "../Render";
-import { Model } from "./RotatingModal";
-// import { HoverBorderGradient } from "../ui/hover-border-gradient";
-// import { MovingBorder } from "../ui/moving-border";
-import { BorderBeam } from "../magicui/border-beam";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -89,13 +84,6 @@ const VerticlesSections = () => {
       ref={containerRef}
       className="w-full h-screen bg-black flex justify-center relative overflow-hidden"
     >
-        {/* 3D Model stays pinned */}
-      <div className="w-full h-screen absolute inset-0 pointer-events-none">
-        <RenderModel>
-          <Model />
-        </RenderModel>
-      </div>
-
       {/* Cards */}
       <div className="relative z-10 flex items-center justify-center w-full h-full">
         {Array.from({ length: 3 }).map((_, i) => (
@@ -115,18 +103,6 @@ const VerticlesSections = () => {
               {/* <source src={`/videos/video-${i + 1}.webm`} type="video/webm" /> */}
               Your browser does not support the video tag.
             </video>
-            <BorderBeam
-              duration={6}
-              size={400}
-              className="from-transparent via-[#F4C542] to-transparent"
-            />
-            <BorderBeam
-              duration={6}
-              delay={3}
-              size={400}
-              borderWidth={2}
-              className="from-transparent via-white to-transparent"
-            />
             <div className="absolute inset-0 bg-black/40" />
             <div className="absolute bottom-0 flex items-center justify-center p-6 w-full text-white">
               <h2 className="text-4xl font-anton tracking-widest text-[#F4C542] mb-2 uppercase">{i + 1 === 1 ? "Software" : i + 1 === 2 ? "Hardware" : "Esports"}</h2>
