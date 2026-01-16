@@ -71,29 +71,95 @@
       "imageUrl": "/domain/tech.jpg",
       "route": "/technical",
       "tagline": "Code • Build • Innovate",
-      "marqueeText": "HACKATHON • ROBO WARS • CODE SPRINT • TECH QUIZ • AI/ML CHALLENGE",
+      "marqueeText": "ESPORTS • ROBO WARS • CODE SPRINT • TECH QUIZ • AI/ML CHALLENGE",
       "marqueeSpeed": 25,
       "events": [
         {
-          "name": "Hackathon 24hrs",
-          "description": "### About\n\nCode non-stop for 24 hours! Build innovative solutions to real-world problems. Collaborate with your team and create something amazing. Free food, mentorship, and prizes await!\n\n### Team\n\nTeams of **2-4 participants**. All skill levels welcome.\n\n### Rules and Regulations\n\n1. Duration: **24 hours** continuous coding\n2. Problem statements revealed at start\n3. Any programming language/framework allowed\n4. Internet access permitted for documentation\n5. Pre-written code libraries allowed, but no pre-built solutions\n6. Mentors available for guidance\n7. Final submission via GitHub repository\n\n### Judging Criteria\n\n- Innovation and creativity (30%)\n- Technical complexity (25%)\n- Functionality and completeness (25%)\n- Presentation and pitch (20%)\n\n### Prizes\n\n- 1st Place: ₹40,000 + Trophy + Internship opportunities\n- 2nd Place: ₹25,000 + Trophy\n- 3rd Place: ₹15,000 + Trophy\n- Best UI/UX: ₹5,000\n- Best First-Year Team: ₹5,000",
+          "name": "Code Hunt",
+          "description": "### About\n\nIn this event we test your grasp on programming language through a series of questions about coding and finding an output. It is a competitive timebound game which consist of 4 knockout levels. In each level you have to solve a problem statement using your desired programming language and reach an output. After each round you will receive a clue of where to find your next problem statement. Level of questions after each round will increase.\n\n### Team\n\nA team may consists of maximum 3 participants and minimum 2 Participant. Requirements:\nYou need to bring your own laptop (with offline compiler installed). No sort of internet will be provided and phones will be kept for security.\n\n### Rules and Regulations\n\n* One of the team player will solve the code and the other is meant to run for the location in the code and bring back the envelope\n* The seal of the envelope must be opened in front of the coordinator. If the seal is found to be broken then you will be disqualified\n* The decision of the judge is final and not subject to review or appeal. You can code in any language and on any compiler EXCEPT PYTHON\n* Use of any unfair means will lead to disqualification including use of Google or any AI to steal or copy code\n* Rules are subjected to change before the final briefing session\nViolation of any of the above rules will lead to immediate disqualification.",
           "link": "https://pages.razorpay.com/rhythmfest",
           "image": "/posters/codehunt.png"
         },
         {
-          "name": "Robo Wars",
+          "name": "Promptify",
           "description": "### About\n\nBuild battle-ready bots and fight in the arena! Design, construct, and control your robot to destroy opponents. The ultimate test of engineering and strategy.\n\n### Team\n\nTeams of **4-6 members**. Bot weight: **15kg maximum**.\n\n### Rules and Regulations\n\n1. Match duration: **3 minutes**\n2. Remote controlled bots only\n3. Weapons allowed: Hammers, flippers, saws (no flames or liquids)\n4. Bot dimensions: Maximum 75cm x 75cm x 75cm\n5. Voltage limit: 24V DC\n6. Safety measures mandatory\n7. Technical inspection before each match\n\n### Arena Specifications\n\n- Size: 16ft x 16ft\n- Boundary walls included\n- Hazards: Pit zones and arena edges\n\n### Prizes\n\n- Winners: ₹35,000 + Trophy\n- Runners-up: ₹20,000 + Trophy\n- Best Design: ₹5,000\n- Most Destructive Bot: ₹5,000",
           "link": "https://pages.razorpay.com/rhythmfest",
           "image": "/posters/Bid2cote.png"
         },
         {
-          "name": "Code Sprint",
+          "name": "Among Bugs",
           "description": "### About\n\nFast-paced competitive programming! Solve algorithmic challenges under time pressure. Test your data structures knowledge and problem-solving speed.\n\n### Participation\n\n**Individual event** - Battle it out solo!\n\n### Rules and Regulations\n\n1. Duration: **3 hours**\n2. Platform: Online coding platform (HackerRank/CodeChef)\n3. Languages: C, C++, Java, Python, JavaScript\n4. 8-10 problems of varying difficulty\n5. No external help or collaboration allowed\n6. Internet restricted to coding platform only\n7. Scoring based on correctness and time\n\n### Problem Types\n\n- Array and String manipulation\n- Dynamic Programming\n- Graph algorithms\n- Tree traversal\n- Mathematical puzzles\n\n### Prizes\n\n- 1st Place: ₹15,000 + Trophy\n- 2nd Place: ₹10,000 + Trophy\n- 3rd Place: ₹6,000 + Trophy\n- Top 10: Certificates of Excellence",
           "link": "https://pages.razorpay.com/rhythmfest",
           "image": "/posters/bugbounty.png"
         },
         {
-          "name": "Tech Quiz",
+          "name": "CodeBid",
+          "description": "### About\n\nTest your technology knowledge across multiple domains! From latest tech trends to historical computing, AI to cybersecurity - prove you're the ultimate tech geek.\n\n### Team\n\nTeams of **2-3 participants**.\n\n### Rules and Regulations\n\n1. **3 rounds**: Preliminary, Semi-final, Final\n2. Preliminary: Written MCQ test (top 8 teams advance)\n3. Semi-final: Buzzer round + visual round\n4. Final: Rapid fire + audience round\n5. No mobile phones or internet access during quiz\n6. Quizmaster's decision is final\n\n### Topics Covered\n\n- Programming languages and frameworks\n- Operating systems and software\n- AI and Machine Learning\n- Cybersecurity\n- Tech startups and innovations\n- Hardware and networking\n\n### Prizes\n\n- Winners: ₹12,000 + Trophy\n- Runners-up: ₹7,000 + Trophy\n- 3rd Place: ₹4,000 + Trophy",
+          "link": "https://pages.razorpay.com/rhythmfest",
+          "image": "/posters/1.png"
+        },
+        {
+          "name": "Algo vs Logic",
+          "description": "### About\n\nTest your technology knowledge across multiple domains! From latest tech trends to historical computing, AI to cybersecurity - prove you're the ultimate tech geek.\n\n### Team\n\nTeams of **2-3 participants**.\n\n### Rules and Regulations\n\n1. **3 rounds**: Preliminary, Semi-final, Final\n2. Preliminary: Written MCQ test (top 8 teams advance)\n3. Semi-final: Buzzer round + visual round\n4. Final: Rapid fire + audience round\n5. No mobile phones or internet access during quiz\n6. Quizmaster's decision is final\n\n### Topics Covered\n\n- Programming languages and frameworks\n- Operating systems and software\n- AI and Machine Learning\n- Cybersecurity\n- Tech startups and innovations\n- Hardware and networking\n\n### Prizes\n\n- Winners: ₹12,000 + Trophy\n- Runners-up: ₹7,000 + Trophy\n- 3rd Place: ₹4,000 + Trophy",
+          "link": "https://pages.razorpay.com/rhythmfest",
+          "image": "/posters/1.png"
+        },
+        {
+          "name": "RoboWar 3 LBS",
+          "description": "### About\n\nTest your technology knowledge across multiple domains! From latest tech trends to historical computing, AI to cybersecurity - prove you're the ultimate tech geek.\n\n### Team\n\nTeams of **2-3 participants**.\n\n### Rules and Regulations\n\n1. **3 rounds**: Preliminary, Semi-final, Final\n2. Preliminary: Written MCQ test (top 8 teams advance)\n3. Semi-final: Buzzer round + visual round\n4. Final: Rapid fire + audience round\n5. No mobile phones or internet access during quiz\n6. Quizmaster's decision is final\n\n### Topics Covered\n\n- Programming languages and frameworks\n- Operating systems and software\n- AI and Machine Learning\n- Cybersecurity\n- Tech startups and innovations\n- Hardware and networking\n\n### Prizes\n\n- Winners: ₹12,000 + Trophy\n- Runners-up: ₹7,000 + Trophy\n- 3rd Place: ₹4,000 + Trophy",
+          "link": "https://pages.razorpay.com/rhythmfest",
+          "image": "/posters/1.png"
+        },
+        {
+          "name": "RoboWar 15KG",
+          "description": "### About\n\nTest your technology knowledge across multiple domains! From latest tech trends to historical computing, AI to cybersecurity - prove you're the ultimate tech geek.\n\n### Team\n\nTeams of **2-3 participants**.\n\n### Rules and Regulations\n\n1. **3 rounds**: Preliminary, Semi-final, Final\n2. Preliminary: Written MCQ test (top 8 teams advance)\n3. Semi-final: Buzzer round + visual round\n4. Final: Rapid fire + audience round\n5. No mobile phones or internet access during quiz\n6. Quizmaster's decision is final\n\n### Topics Covered\n\n- Programming languages and frameworks\n- Operating systems and software\n- AI and Machine Learning\n- Cybersecurity\n- Tech startups and innovations\n- Hardware and networking\n\n### Prizes\n\n- Winners: ₹12,000 + Trophy\n- Runners-up: ₹7,000 + Trophy\n- 3rd Place: ₹4,000 + Trophy",
+          "link": "https://pages.razorpay.com/rhythmfest",
+          "image": "/posters/1.png"
+        },
+        {
+          "name": "RoboWar 60KG",
+          "description": "### About\n\nTest your technology knowledge across multiple domains! From latest tech trends to historical computing, AI to cybersecurity - prove you're the ultimate tech geek.\n\n### Team\n\nTeams of **2-3 participants**.\n\n### Rules and Regulations\n\n1. **3 rounds**: Preliminary, Semi-final, Final\n2. Preliminary: Written MCQ test (top 8 teams advance)\n3. Semi-final: Buzzer round + visual round\n4. Final: Rapid fire + audience round\n5. No mobile phones or internet access during quiz\n6. Quizmaster's decision is final\n\n### Topics Covered\n\n- Programming languages and frameworks\n- Operating systems and software\n- AI and Machine Learning\n- Cybersecurity\n- Tech startups and innovations\n- Hardware and networking\n\n### Prizes\n\n- Winners: ₹12,000 + Trophy\n- Runners-up: ₹7,000 + Trophy\n- 3rd Place: ₹4,000 + Trophy",
+          "link": "https://pages.razorpay.com/rhythmfest",
+          "image": "/posters/1.png"
+        },
+        {
+          "name": "RoboHurdle Race",
+          "description": "### About\n\nTest your technology knowledge across multiple domains! From latest tech trends to historical computing, AI to cybersecurity - prove you're the ultimate tech geek.\n\n### Team\n\nTeams of **2-3 participants**.\n\n### Rules and Regulations\n\n1. **3 rounds**: Preliminary, Semi-final, Final\n2. Preliminary: Written MCQ test (top 8 teams advance)\n3. Semi-final: Buzzer round + visual round\n4. Final: Rapid fire + audience round\n5. No mobile phones or internet access during quiz\n6. Quizmaster's decision is final\n\n### Topics Covered\n\n- Programming languages and frameworks\n- Operating systems and software\n- AI and Machine Learning\n- Cybersecurity\n- Tech startups and innovations\n- Hardware and networking\n\n### Prizes\n\n- Winners: ₹12,000 + Trophy\n- Runners-up: ₹7,000 + Trophy\n- 3rd Place: ₹4,000 + Trophy",
+          "link": "https://pages.razorpay.com/rhythmfest",
+          "image": "/posters/1.png"
+        },
+        {
+          "name": "Robo Soccer",
+          "description": "### About\n\nTest your technology knowledge across multiple domains! From latest tech trends to historical computing, AI to cybersecurity - prove you're the ultimate tech geek.\n\n### Team\n\nTeams of **2-3 participants**.\n\n### Rules and Regulations\n\n1. **3 rounds**: Preliminary, Semi-final, Final\n2. Preliminary: Written MCQ test (top 8 teams advance)\n3. Semi-final: Buzzer round + visual round\n4. Final: Rapid fire + audience round\n5. No mobile phones or internet access during quiz\n6. Quizmaster's decision is final\n\n### Topics Covered\n\n- Programming languages and frameworks\n- Operating systems and software\n- AI and Machine Learning\n- Cybersecurity\n- Tech startups and innovations\n- Hardware and networking\n\n### Prizes\n\n- Winners: ₹12,000 + Trophy\n- Runners-up: ₹7,000 + Trophy\n- 3rd Place: ₹4,000 + Trophy",
+          "link": "https://pages.razorpay.com/rhythmfest",
+          "image": "/posters/1.png"
+        },
+        {
+          "name": "Go Karting",
+          "description": "### About\n\nTest your technology knowledge across multiple domains! From latest tech trends to historical computing, AI to cybersecurity - prove you're the ultimate tech geek.\n\n### Team\n\nTeams of **2-3 participants**.\n\n### Rules and Regulations\n\n1. **3 rounds**: Preliminary, Semi-final, Final\n2. Preliminary: Written MCQ test (top 8 teams advance)\n3. Semi-final: Buzzer round + visual round\n4. Final: Rapid fire + audience round\n5. No mobile phones or internet access during quiz\n6. Quizmaster's decision is final\n\n### Topics Covered\n\n- Programming languages and frameworks\n- Operating systems and software\n- AI and Machine Learning\n- Cybersecurity\n- Tech startups and innovations\n- Hardware and networking\n\n### Prizes\n\n- Winners: ₹12,000 + Trophy\n- Runners-up: ₹7,000 + Trophy\n- 3rd Place: ₹4,000 + Trophy",
+          "link": "https://pages.razorpay.com/rhythmfest",
+          "image": "/posters/1.png"
+        },
+        {
+          "name": "BGMI",
+          "description": "### About\n\nTest your technology knowledge across multiple domains! From latest tech trends to historical computing, AI to cybersecurity - prove you're the ultimate tech geek.\n\n### Team\n\nTeams of **2-3 participants**.\n\n### Rules and Regulations\n\n1. **3 rounds**: Preliminary, Semi-final, Final\n2. Preliminary: Written MCQ test (top 8 teams advance)\n3. Semi-final: Buzzer round + visual round\n4. Final: Rapid fire + audience round\n5. No mobile phones or internet access during quiz\n6. Quizmaster's decision is final\n\n### Topics Covered\n\n- Programming languages and frameworks\n- Operating systems and software\n- AI and Machine Learning\n- Cybersecurity\n- Tech startups and innovations\n- Hardware and networking\n\n### Prizes\n\n- Winners: ₹12,000 + Trophy\n- Runners-up: ₹7,000 + Trophy\n- 3rd Place: ₹4,000 + Trophy",
+          "link": "https://pages.razorpay.com/rhythmfest",
+          "image": "/posters/1.png"
+        },
+        {
+          "name": "Valorant",
+          "description": "### About\n\nTest your technology knowledge across multiple domains! From latest tech trends to historical computing, AI to cybersecurity - prove you're the ultimate tech geek.\n\n### Team\n\nTeams of **2-3 participants**.\n\n### Rules and Regulations\n\n1. **3 rounds**: Preliminary, Semi-final, Final\n2. Preliminary: Written MCQ test (top 8 teams advance)\n3. Semi-final: Buzzer round + visual round\n4. Final: Rapid fire + audience round\n5. No mobile phones or internet access during quiz\n6. Quizmaster's decision is final\n\n### Topics Covered\n\n- Programming languages and frameworks\n- Operating systems and software\n- AI and Machine Learning\n- Cybersecurity\n- Tech startups and innovations\n- Hardware and networking\n\n### Prizes\n\n- Winners: ₹12,000 + Trophy\n- Runners-up: ₹7,000 + Trophy\n- 3rd Place: ₹4,000 + Trophy",
+          "link": "https://pages.razorpay.com/rhythmfest",
+          "image": "/posters/1.png"
+        },
+        {
+          "name": "FreeFire",
+          "description": "### About\n\nTest your technology knowledge across multiple domains! From latest tech trends to historical computing, AI to cybersecurity - prove you're the ultimate tech geek.\n\n### Team\n\nTeams of **2-3 participants**.\n\n### Rules and Regulations\n\n1. **3 rounds**: Preliminary, Semi-final, Final\n2. Preliminary: Written MCQ test (top 8 teams advance)\n3. Semi-final: Buzzer round + visual round\n4. Final: Rapid fire + audience round\n5. No mobile phones or internet access during quiz\n6. Quizmaster's decision is final\n\n### Topics Covered\n\n- Programming languages and frameworks\n- Operating systems and software\n- AI and Machine Learning\n- Cybersecurity\n- Tech startups and innovations\n- Hardware and networking\n\n### Prizes\n\n- Winners: ₹12,000 + Trophy\n- Runners-up: ₹7,000 + Trophy\n- 3rd Place: ₹4,000 + Trophy",
+          "link": "https://pages.razorpay.com/rhythmfest",
+          "image": "/posters/1.png"
+        },
+        {
+          "name": "Tekken",
           "description": "### About\n\nTest your technology knowledge across multiple domains! From latest tech trends to historical computing, AI to cybersecurity - prove you're the ultimate tech geek.\n\n### Team\n\nTeams of **2-3 participants**.\n\n### Rules and Regulations\n\n1. **3 rounds**: Preliminary, Semi-final, Final\n2. Preliminary: Written MCQ test (top 8 teams advance)\n3. Semi-final: Buzzer round + visual round\n4. Final: Rapid fire + audience round\n5. No mobile phones or internet access during quiz\n6. Quizmaster's decision is final\n\n### Topics Covered\n\n- Programming languages and frameworks\n- Operating systems and software\n- AI and Machine Learning\n- Cybersecurity\n- Tech startups and innovations\n- Hardware and networking\n\n### Prizes\n\n- Winners: ₹12,000 + Trophy\n- Runners-up: ₹7,000 + Trophy\n- 3rd Place: ₹4,000 + Trophy",
           "link": "https://pages.razorpay.com/rhythmfest",
           "image": "/posters/1.png"
