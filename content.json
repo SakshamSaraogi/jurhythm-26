@@ -17,46 +17,46 @@
   },
   "glimpse": {
     "orbitalCarousel": [
-      { "name": "Cultural Night", "image": "/images/portrait-woman-artist-curly-hair.jpg" },
-      { "name": "Tech Fest", "image": "/images/portrait-man-curator-yellow-background.jpg" },
-      { "name": "Sports Day", "image": "/images/portrait-man-artist-vintage-style.jpg" },
-      { "name": "Music Concert", "image": "/images/portrait-woman-artist-brunette.jpg" },
-      { "name": "Art Exhibition", "image": "/images/portrait-man-sculptor-asian.jpg" },
-      { "name": "Dance Performance", "image": "/images/portrait-woman-painter-blonde.jpg" },
-      { "name": "Innovation Meet", "image": "/images/portrait-man-photographer-japanese.jpg" },
-      { "name": "Design Workshop", "image": "/images/portrait-woman-designer-latina.jpg" },
-      { "name": "Hackathon", "image": "/images/portrait-man-illustrator-british.jpg" },
-      { "name": "Drama Festival", "image": "/images/portrait-woman-sculptor-russian.jpg" },
-      { "name": "Startup Pitch", "image": "/images/portrait-man-architect-singapore.jpg" },
-      { "name": "Fashion Show", "image": "/images/portrait-woman-mixed-media-nigerian.jpg" }
+      { "name": "B Praak", "image": "/carousel/1.png" },
+      { "name": "King", "image": "/carousel/2.png" },
+      { "name": "Harsh Gujral", "image": "/carousel/3.png" },
+      { "name": "Go Karting", "image": "/carousel/4.png" },
+      { "name": "Rhythm Rumble", "image": "/carousel/5.png" },
+      { "name": "TrapperX", "image": "/carousel/6.png" },
+      { "name": "Robo Soccer", "image": "/carousel/7.png" },
+      { "name": "BGMI", "image": "/carousel/8.png" },
+      { "name": "JU Showdown", "image": "/carousel/9.png" },
+      { "name": "Paintball", "image": "/carousel/10.png" },
+      { "name": "Street Dance", "image": "/carousel/11.png" },
+      { "name": "Futsal", "image": "/carousel/12.png" }
     ],
     "scrollingGallery": {
       "column1": [
-        { "src": "/gallery/rhythm-1.jpg", "alt": "Rhythm event performance" },
-        { "src": "/gallery/rhythm-2.jpg", "alt": "Rhythm crowd" },
-        { "src": "/gallery/rhythm-3.jpg", "alt": "Rhythm stage" },
-        { "src": "/gallery/rhythm-4.jpg", "alt": "Rhythm lights" },
-        { "src": "/gallery/rhythm-5.jpg", "alt": "Rhythm dancers" },
-        { "src": "/gallery/rhythm-6.jpg", "alt": "Rhythm venue" },
-        { "src": "/gallery/rhythm-7.jpg", "alt": "Rhythm atmosphere" }
+        { "src": "/gallery/1.png", "alt": "Rhythm event performance" },
+        { "src": "/gallery/2.png", "alt": "Rhythm crowd" },
+        { "src": "/gallery/3.png", "alt": "Rhythm stage" },
+        { "src": "/gallery/4.png", "alt": "Rhythm lights" },
+        { "src": "/gallery/5.png", "alt": "Rhythm dancers" },
+        { "src": "/gallery/6.png", "alt": "Rhythm venue" },
+        { "src": "/gallery/7.png", "alt": "Rhythm atmosphere" }
       ],
       "column2": [
-        { "src": "/gallery/rhythm-8.jpg", "alt": "Rhythm DJ set" },
-        { "src": "/gallery/rhythm-9.jpg", "alt": "Rhythm audience" },
-        { "src": "/gallery/rhythm-10.jpg", "alt": "Rhythm backstage" },
-        { "src": "/gallery/rhythm-11.jpg", "alt": "Rhythm setup" },
-        { "src": "/gallery/rhythm-12.jpg", "alt": "Rhythm soundcheck" },
-        { "src": "/gallery/rhythm-13.jpg", "alt": "Rhythm artists" },
-        { "src": "/gallery/rhythm-14.jpg", "alt": "Rhythm visuals" }
+        { "src": "/gallery/8.png", "alt": "Rhythm DJ set" },
+        { "src": "/gallery/9.png", "alt": "Rhythm audience" },
+        { "src": "/gallery/10.png", "alt": "Rhythm backstage" },
+        { "src": "/gallery/11.png", "alt": "Rhythm setup" },
+        { "src": "/gallery/12.png", "alt": "Rhythm soundcheck" },
+        { "src": "/gallery/13.png", "alt": "Rhythm artists" },
+        { "src": "/gallery/14.png", "alt": "Rhythm visuals" }
       ],
       "column3": [
-        { "src": "/gallery/rhythm-15.jpg", "alt": "Rhythm opening" },
-        { "src": "/gallery/rhythm-16.jpg", "alt": "Rhythm finale" },
-        { "src": "/gallery/rhythm-17.jpg", "alt": "Rhythm celebration" },
-        { "src": "/gallery/rhythm-18.jpg", "alt": "Rhythm energy" },
-        { "src": "/gallery/rhythm-19.jpg", "alt": "Rhythm moments" },
-        { "src": "/gallery/rhythm-20.jpg", "alt": "Rhythm vibes" },
-        { "src": "/gallery/rhythm-21.jpg", "alt": "Rhythm memories" }
+        { "src": "/gallery/15.png", "alt": "Rhythm opening" },
+        { "src": "/gallery/16.png", "alt": "Rhythm finale" },
+        { "src": "/gallery/17.png", "alt": "Rhythm celebration" },
+        { "src": "/gallery/18.png", "alt": "Rhythm energy" },
+        { "src": "/gallery/19.png", "alt": "Rhythm moments" },
+        { "src": "/gallery/20.png", "alt": "Rhythm vibes" },
+        { "src": "/gallery/21.png", "alt": "Rhythm memories" }
       ]
     }
   },
@@ -113,16 +113,16 @@
     "title": "Pronite",
     "cards": [
       {
-        "imageSrc": "/placeholder.svg?height=280&width=280",
-        "songName": "Running Up That Hill"
+        "imageSrc": "/pronite/comingsoon.png",
+        "songName": "Coming Soon"
       },
       {
-        "imageSrc": "/placeholder.svg?height=280&width=280",
-        "songName": "Blinding Lights"
+        "imageSrc": "/pronite/comingsoon.png",
+        "songName": "Coming Soon"
       },
       {
-        "imageSrc": "/placeholder.svg?height=280&width=280",
-        "songName": "Levitating"
+        "imageSrc": "/pronite/comingsoon.png",
+        "songName": "Coming Soon"
       }
     ]
   },
