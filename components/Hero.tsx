@@ -64,12 +64,7 @@ function Hero() {
           <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 justify-center px-4 w-full sm:w-auto">
             <button 
               onClick={() => {
-                const element = document.getElementById('domains');
-                if (element) {
-                  const yOffset = -80; // Offset for navbar height
-                  const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
-                  window.scrollTo({ top: y, behavior: 'smooth' });
-                }
+                window.location.hash = "verticals";
               }}
               className="bg-gradient-to-r from-[#fbbf24] to-[#fde68a] text-black border-2 border-[#fbbf24] hover:from-[#fde68a] hover:to-[#fbbf24] duration-300 cursor-pointer font-semibold tracking-wide py-2.5 sm:py-3 px-6 sm:px-8 text-sm sm:text-base md:text-lg rounded-full transition-all transform hover:scale-105 shadow-[0_0_20px_rgba(251,191,36,0.5)] hover:shadow-[0_0_30px_rgba(251,191,36,0.8)] w-full sm:w-auto text-center"
             >
