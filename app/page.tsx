@@ -45,19 +45,10 @@ gsap.registerPlugin(ScrollTrigger)
 
 export default function Home() {
     const containerRef = useRef<HTMLDivElement>(null)
-    const [isLoading, setIsLoading] = useState(false)
-
-    useEffect(() => {
-      // Check if loading screen has been shown in this session
-      const hasShownLoading = sessionStorage.getItem('loadingShown')
-      if (!hasShownLoading) {
-        setIsLoading(true)
-      }
-    }, [])
+    const [isLoading, setIsLoading] = useState(true) // Always show loading on landing page
 
     const handleLoadingComplete = () => {
       setIsLoading(false)
-      sessionStorage.setItem('loadingShown', 'true')
     }
 
     useEffect(() => {
