@@ -39,7 +39,7 @@ interface CardProps {
   image: string;
 }
 
-const Card = ({ name, description, image }: CardProps) => {
+const Card = ({ name, description, image, link }: CardProps) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const closeModal = () => setIsModalOpen(false);
@@ -65,7 +65,7 @@ const Card = ({ name, description, image }: CardProps) => {
 
         <div className="w-full flex flex-col sm:flex-row gap-3 sm:gap-0 sm:justify-between">
           <Link
-            href={"https://pages.razorpay.com/rhythmfest"}
+            href={link ?? "#"}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -263,7 +263,7 @@ const Card = ({ name, description, image }: CardProps) => {
                 className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4 mt-6 sm:mt-8"
               >
                 <Link
-                  href={"https://pages.razorpay.com/rhythmfest"}
+                  href={link ?? "#"}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
