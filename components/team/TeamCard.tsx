@@ -30,10 +30,10 @@ export const TeamCard = ({ name, position, image, className }: TeamCardProps) =>
       </div>
       
       <div className="absolute bottom-0 left-0 right-0 p-2 sm:p-3 md:p-4 lg:p-6 text-white transform translate-y-1 group-hover:translate-y-0 transition-transform duration-300">
-        <h3 className="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl font-anton uppercase tracking-wide sm:tracking-wider md:tracking-widest mb-0.5 sm:mb-1 text-[#fbbf24] drop-shadow-[0_0_20px_rgba(251,191,36,0.6)] line-clamp-2">
+        <h3 className="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl font-anton uppercase tracking-wide sm:tracking-wider md:tracking-widest mb-0.5 sm:mb-1 text-[#fbbf24] drop-shadow-[0_0_20px_rgba(251,191,36,0.6)] line-clamp-2 sm:line-clamp-none whitespace-normal">
           {name}
         </h3>
-        <p className="text-white font-inter font-semibold text-[10px] sm:text-xs md:text-sm uppercase tracking-wide sm:tracking-wider line-clamp-1">
+        <p className="text-white font-inter font-semibold text-[8px] sm:text-xs md:text-sm tracking-wide sm:tracking-wider line-clamp-1 sm:line-clamp-none whitespace-normal">
           {position}
         </p>
       </div>
