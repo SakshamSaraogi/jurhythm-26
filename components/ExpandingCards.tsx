@@ -20,7 +20,7 @@ export default function ExpandingCards() {
       {/* Section Title */}
       <div className="w-fit relative group cursor-pointer mb-16">
         <h2 className="text-5xl md:text-8xl duration-500 font-anton tracking-wide font-bold text-center text-[#fbbf24] drop-shadow-[0_0_40px_rgba(251,191,36,0.6)] uppercase relative z-20">
-          Domains
+          Events
         </h2>
       </div>
 
