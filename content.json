@@ -603,6 +603,11 @@
           "image": "/team/dhruv.png"
         },
         {
+          "name": "Gargi",
+          "position": "Admin Head",
+          "image": "/team/gargi.png"
+        },
+        {
           "name": "Radhika Agarwal",
           "position": "Admin Head",
           "image": "/team/radhika.png"
@@ -664,13 +669,18 @@
         },
         {
           "name": "Chirag Chaudhary",
-          "position": "Logistics Head",
+          "position": "Logistics & Admin Head",
           "image": "/team/chirag.png"
         },
         {
           "name": "Ajay Chaudhary",
           "position": "Logistics Head",
           "image": "/team/ajay.png"
+        },
+        {
+          "name": "Naitik",
+          "position": "Logistics Head",
+          "image": "/team/naitik.png"
         },
         {
           "name": "Harsh Badiwal",
