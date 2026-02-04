@@ -598,6 +598,11 @@
           "image": "/team/sanjana.png"
         },
         {
+          "name": "Krish Gandotra",
+          "position": "Cultural Head",
+          "image": "/team/krish.png"
+        },
+        {
           "name": "Dhruv Sharma",
           "position": "Admin & Sponsorship Head",
           "image": "/team/dhruv.png"
@@ -666,6 +671,11 @@
           "name": "Rohan Gupta",
           "position": "Hospitality Head",
           "image": "/team/rohan.png"
+        },
+        {
+          "name": "Om Soni",
+          "position": "Hospitality Head",
+          "image": "/team/omsoni.png"
         },
         {
           "name": "Chirag Chaudhary",
