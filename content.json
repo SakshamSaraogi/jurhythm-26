@@ -97,6 +97,12 @@
         "scrollTo": "domains"
       },
       {
+        "text": "Schedule",
+        "type": "outline",
+        "href": "/guidelines/ScheduleJU.pdf",
+        "external": true
+      }
+      {
         "text": "Guidelines",
         "type": "outline",
         "href": "/guidelines/ScheduleJU.pdf",
