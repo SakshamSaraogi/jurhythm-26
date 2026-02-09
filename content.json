@@ -62,7 +62,7 @@
   },
   "social": {
     "instagram": {
-      "url": "https://www.instagram.com/jurhythm.ju/",
+      "url": "https://www.instagram.com/rhythm.ju/",
       "icon": "/images/icons/insta.svg",
       "label": "Instagram"
     }
@@ -879,7 +879,7 @@
         },
         {
           "label": "Instagram",
-          "href": "https://www.instagram.com/jurhythm.ju/",
+          "href": "https://www.instagram.com/rhythm.ju/",
           "external": true,
           "icon": "/images/icons/insta.svg"
         }
