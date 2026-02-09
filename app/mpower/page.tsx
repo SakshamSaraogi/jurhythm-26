@@ -9,7 +9,7 @@ import React from "react";
 import content from "@/lib/useContent";
 
 const page = () => {
-  const empowerDomain = content.domains.find(d => d.title === "Empower");
+  const empowerDomain = content.domains.find(d => d.title === "Mpower");
   
   if (!empowerDomain) return null;
 
