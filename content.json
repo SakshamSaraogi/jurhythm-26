@@ -525,9 +525,24 @@
   "sponsors": [
     {
       "id": "1",
-      "name": "Myntra - Title Sponsor",
+      "name": "Myntra",
       "logo": "/sponsors/myntra.png",
-    "website": "https://www.myntra.com/"
+      "website": "https://www.myntra.com/",
+      "tier": "title"
+    },
+    {
+      "id": "2",
+      "name": "Coming Soon",
+      "logo": "",
+      "website": "#",
+      "tier": "associate"
+    },
+    {
+      "id": "3",
+      "name": "Coming Soon",
+      "logo": "",
+      "website": "#",
+      "tier": "partner"
     }
   ],
   "sponsorsPage": {
