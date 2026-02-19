@@ -114,15 +114,15 @@
     "title": "Pronite",
     "cards": [
       {
-        "imageSrc": "/pronite/zakir.png",
+        "imageSrc": "/pronite/zakirr.png",
         "songName": "Zakir Khan"
       },
       {
-        "imageSrc": "/pronite/farhan.png",
+        "imageSrc": "/pronite/palak.png",
         "songName": "Farhan Akhtar"
       },
       {
-        "imageSrc": "/pronite/comingsoon.png",
+        "imageSrc": "/pronite/farhanakhtar.png",
         "songName": "Coming Soon"
       }
     ]
