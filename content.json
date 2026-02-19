@@ -539,11 +539,131 @@
     },
     {
       "id": "3",
+      "name": "antimatter",
+      "logo": "/sponsors/antimatterpng",
+      "website": "#",
+      "tier": "partner"
+    },
+    {
+      "id": "4",
+      "name": "Banta Jeera",
+      "logo": "/sponsors/bantajeera.png",
+      "website": "#",
+      "tier": "partner"
+    },
+    {
+      "id": "5",
+      "name": "Beyondsnack",
+      "logo": "/sponsors/Beyondsnack.png",
+      "website": "#",
+      "tier": "partner"
+    },
+    {
+      "id": "6",
+      "name": "Digitek",
+      "logo": "/sponsors/Digitek.png",
+      "website": "#",
+      "tier": "partner"
+    },
+    {
+      "id": "7",
+      "name": "Coming Soon",
+      "logo": "",
+      "website": "#",
+      "tier": "partner"
+    },
+    {
+      "id": "8",
+      "name": "Coming Soon",
+      "logo": "",
+      "website": "#",
+      "tier": "partner"
+    },
+    {
+      "id": "9",
+      "name": "Coming Soon",
+      "logo": "",
+      "website": "#",
+      "tier": "partner"
+    },  
+    {
+      "id": "10",
+      "name": "Coming Soon",
+      "logo": "",
+      "website": "#",
+      "tier": "partner"
+    },
+    {
+      "id": "11",
+      "name": "Coming Soon",
+      "logo": "",
+      "website": "#",
+      "tier": "partner"
+    },
+    {
+      "id": "12",
+      "name": "Coming Soon",
+      "logo": "",
+      "website": "#",
+      "tier": "partner"
+    },
+    {
+      "id": "13",
+      "name": "Coming Soon",
+      "logo": "",
+      "website": "#",
+      "tier": "partner"
+    },
+    {
+      "id": "14",
+      "name": "Coming Soon",
+      "logo": "",
+      "website": "#",
+      "tier": "partner"
+    },
+    {
+      "id": "15",
+      "name": "Coming Soon",
+      "logo": "",
+      "website": "#",
+      "tier": "partner"
+    },
+    {
+      "id": "16",
+      "name": "Coming Soon",
+      "logo": "",
+      "website": "#",
+      "tier": "partner"
+    },
+    {
+      "id": "17",
+      "name": "Coming Soon",
+      "logo": "",
+      "website": "#",
+      "tier": "partner"
+    },
+    {
+      "id": "18",
+      "name": "Coming Soon",
+      "logo": "",
+      "website": "#",
+      "tier": "partner"
+    },
+    {
+      "id": "19",
+      "name": "Coming Soon",
+      "logo": "",
+      "website": "#",
+      "tier": "partner"
+    },
+    {
+      "id": "20",
       "name": "Coming Soon",
       "logo": "",
       "website": "#",
       "tier": "partner"
     }
+
   ],
   "sponsorsPage": {
     "title": "Sponsors",
