@@ -539,130 +539,131 @@
     },
     {
       "id": "3",
-      "name": "antimatter",
-      "logo": "/sponsors/antimatterpng",
-      "website": "#",
+      "name": "CLOTHING PARTNER",
+      "logo": "/sponsors/antimatter.png",
+      "website": "https://antimatterfit.com/gym-in-jaipur/",
       "tier": "partner"
     },
     {
       "id": "4",
-      "name": "Banta Jeera",
+      "name": "REFRESHMENT PARTNER",
       "logo": "/sponsors/bantajeera.png",
-      "website": "#",
+      "website": "https://jayantiworld.com/banta-jeera/",
       "tier": "partner"
     },
     {
       "id": "5",
-      "name": "Beyondsnack",
-      "logo": "/sponsors/Beyondsnack.png",
-      "website": "#",
+      "name": "MUNCHING PARTNER",
+      "logo": "/sponsors/beyondsnack.png",
+      "website": "https://www.beyondsnack.in/",
       "tier": "partner"
     },
     {
       "id": "6",
-      "name": "Digitek",
-      "logo": "/sponsors/Digitek.png",
-      "website": "#",
+      "name": "CREATOR TECH PARTNER",
+      "logo": "/sponsors/digitek.png",
+      "website": "https://digitek.net.in/",
       "tier": "partner"
     },
     {
       "id": "7",
-      "name": "Coming Soon",
-      "logo": "",
-      "website": "#",
+      "name": "DINING PARTNER",
+      "logo": "/sponsors/eazydiner.png",
+      "website": "https://www.eazydiner.com/",
       "tier": "partner"
     },
     {
       "id": "8",
-      "name": "Coming Soon",
-      "logo": "",
-      "website": "#",
+      "name": "SKINCARE PARTNER",
+      "logo": "/sponsors/plum.png",
+      "website": "https://plumgoodness.com/",
       "tier": "partner"
     },
     {
       "id": "9",
-      "name": "Coming Soon",
-      "logo": "",
-      "website": "#",
+      "name": "BATH & BODY PARTNER",
+      "logo": "/sponsors/bathbody.png",
+      "website": "https://plumgoodness.com/",
       "tier": "partner"
-    },  
+    },
     {
       "id": "10",
-      "name": "Coming Soon",
-      "logo": "",
-      "website": "#",
+      "name": "MENS HAIRSTYLING PARTNER",
+      "logo": "/sponsors/gatsby.png",
+      "website": "https://gatsbyindia.com/",
       "tier": "partner"
     },
     {
       "id": "11",
-      "name": "Coming Soon",
-      "logo": "",
-      "website": "#",
+      "name": "SELFCARE PARTNER",
+      "logo": "/sponsors/vlcc.png",
+      "website": "https://vlcc.com/",
       "tier": "partner"
     },
     {
       "id": "12",
-      "name": "Coming Soon",
-      "logo": "",
-      "website": "#",
+      "name": "WELLNESS PARTNER",
+      "logo": "/sponsors/plush.png",
+      "website": "https://www.plushforher.com/",
       "tier": "partner"
     },
     {
       "id": "13",
-      "name": "Coming Soon",
-      "logo": "",
-      "website": "#",
+      "name": "GADGET PARTNER",
+      "logo": "/sponsors/portronics.png",
+      "website": "https://www.portronics.com/",
       "tier": "partner"
     },
     {
       "id": "14",
-      "name": "Coming Soon",
-      "logo": "",
-      "website": "#",
+      "name": "ENERGY PARTNER",
+      "logo": "/sponsors/teinpro.png",
+      "website": "https://teinpro.com/",
       "tier": "partner"
     },
     {
       "id": "15",
-      "name": "Coming Soon",
-      "logo": "",
-      "website": "#",
+      "name": "CONFECTIONERY PARTNER",
+      "logo": "/sponsors/pepero.png",
+      "website": "https://www.lotteindia.com/pepero.html",
       "tier": "partner"
     },
     {
       "id": "16",
-      "name": "Coming Soon",
-      "logo": "",
-      "website": "#",
+      "name": "GREEN MOBILITY PARTNER",
+      "logo": "/sponsors/neugo.png",
+      "website": "https://www.nuego.in/",
       "tier": "partner"
     },
     {
       "id": "17",
-      "name": "Coming Soon",
-      "logo": "",
-      "website": "#",
+      "name": "HYGIENE PARTNER",
+      "logo": "/sponsors/sirona.png",
+      "website": "https://thesirona.com/",
       "tier": "partner"
     },
     {
       "id": "18",
-      "name": "Coming Soon",
-      "logo": "",
-      "website": "#",
+      "name": "ADVENTURE PARTNER",
+      "logo": "/sponsors/pinkfalcon.png",
+      "website": "https://www.thepinkfalcon.com/",
       "tier": "partner"
     },
     {
       "id": "19",
-      "name": "Coming Soon",
-      "logo": "",
-      "website": "#",
+      "name": "SOCKS PARTNER",
+      "logo": "/sponsors/sockscarving.png",
+      "website": "https://www.thepinkfalcon.com/",
       "tier": "partner"
     },
     {
       "id": "20",
-      "name": "Coming Soon",
-      "logo": "",
-      "website": "#",
+      "name": "FRAGRANCE PARTNER",
+      "logo": "/sponsors/envy.png",
+      "website": "https://envyfragrances.com/",
       "tier": "partner"
     }
+    
 
   ],
   "sponsorsPage": {
