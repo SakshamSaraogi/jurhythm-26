@@ -43,7 +43,7 @@ const tierConfig = {
     bgGradient: "from-[#cd7f32]/10 via-[#d4a574]/5 to-transparent",
     cardMinHeight: "min-h-[180px]",
     gridCols: "grid-cols-2 sm:grid-cols-3 md:grid-cols-4",
-    maxLogoWidth: "max-w-[90vw] sm:max-w-[220px]",
+    maxLogoWidth: "max-w-full",
   },
 };
 
