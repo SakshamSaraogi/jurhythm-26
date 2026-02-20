@@ -169,19 +169,6 @@ const page = () => {
             </div>
           </div>
         </div>
-
-        <div className="w-full px-6 sm:px-8 md:px-12 py-8 mt-12 sm:mt-16 md:mt-24 flex flex-wrap gap-8 sm:gap-10 md:gap-12 justify-center">
-          {(teamDomain.events ?? []).map((event, index) => (
-            <Card
-              key={index}
-              name={event.name}
-              description={event.description}
-              link={event.link}
-              image={event.image}
-            />
-          ))}
-        </div>
-      </div>
       </div>
       <Footer />
 
@@ -205,7 +192,8 @@ const page = () => {
         ))}
       </div>
     </div>
+    </div>
   );
-};
+}
 
 export default page;
