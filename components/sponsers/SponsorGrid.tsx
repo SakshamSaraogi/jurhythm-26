@@ -41,8 +41,8 @@ const tierConfig = {
     glowColor: "rgba(205,127,50,0.4)",
     borderColor: "border-[#cd7f32]/30",
     bgGradient: "from-[#cd7f32]/10 via-[#d4a574]/5 to-transparent",
-    cardMinHeight: "min-h-[180px]",
-    gridCols: "grid-cols-2 sm:grid-cols-3 md:grid-cols-4",
+    cardMinHeight: "min-h-[180px] sm:min-h-[180px] md:min-h-[180px]",
+    gridCols: "grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4",
     maxLogoWidth: "max-w-full",
   },
 };
@@ -87,7 +87,7 @@ const SponsorGrid = () => {
             </div>
 
             {/* Sponsor Cards Grid */}
-            <div className={`grid ${config.gridCols} gap-6 w-full ${tier === "title" ? "max-w-xl mx-auto" : ""}`}>
+            <div className={`grid ${config.gridCols} gap-4 sm:gap-6 w-full px-2 sm:px-0 ${tier === "title" ? "max-w-xl mx-auto" : ""}`}>
               {tierSponsors.map((sponsor) => {
                 const isComingSoon = !sponsor.logo;
                 const Wrapper = isComingSoon ? "div" : "a";
@@ -105,7 +105,7 @@ const SponsorGrid = () => {
                 >
                   {/* Card Container */}
                   <div
-                    className={`relative h-full ${config.cardMinHeight} overflow-hidden rounded-2xl border bg-transparent p-8 transition-all duration-300 hover:shadow-2xl ${config.borderColor}`}
+                    className={`relative h-full ${config.cardMinHeight} overflow-hidden rounded-2xl border bg-transparent p-4 transition-all duration-300 hover:shadow-2xl ${config.borderColor}`}
                     style={{
                       borderColor: hoveredId === sponsor.id ? config.color : undefined,
                       boxShadow: hoveredId === sponsor.id ? `0 0 30px ${config.glowColor}` : undefined,
@@ -119,7 +119,7 @@ const SponsorGrid = () => {
                     )}
 
                     {/* Logo Container */}
-                    <div className="relative w-full h-full flex items-center justify-center">
+                    <div className="relative w-full h-full flex items-center justify-center p-2 sm:p-4">
                       {sponsor.logo ? (
                         <div className={`relative w-full aspect-video ${config.maxLogoWidth}`}>
                           <Image
