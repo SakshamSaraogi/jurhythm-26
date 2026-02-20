@@ -44,7 +44,7 @@ const page = () => {
 
         {/* Cards with better spacing */}
         <div className="w-full px-6 sm:px-8 md:px-12 py-8 mt-12 sm:mt-16 md:mt-24 flex flex-wrap gap-8 sm:gap-10 md:gap-12 justify-center">
-          {mediaDomain.events.map((event, index) => (
+          {(mediaDomain.events ?? []).map((event, index) => (
             <Card
               key={index}
               name={event.name}

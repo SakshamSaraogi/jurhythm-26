@@ -185,7 +185,10 @@
       "link": "https://rzp.io/rzp/rhy26day1",
       "buttonText": "Register for Day 1",
       "buttonType": "primary",
-      "redirect": true
+      "redirect": true,
+      "tagline": "Opening Spectacle & Celebration",
+      "marqueeText": "CULTURAL • TECHNICAL • SPORTS • MEDIA • JOIN THE CELEBRATION",
+      "marqueeSpeed": 27
     },
     {
       "id": 2,
@@ -195,7 +198,18 @@
       "link": "https://rzp.io/rzp/rhy26day2",
       "buttonText": "Register for Day 2",
       "buttonType": "primary",
-      "redirect": true
+      "redirect": true,
+      "tagline": "Competitions, Workshops & More",
+      "marqueeText": "CULTURAL • TECHNICAL • SPORTS • MEDIA • JOIN THE CELEBRATION",
+      "marqueeSpeed": 27,
+      "events": [
+        {
+          "name": "Sample Event",
+          "description": "This is a placeholder event for Day 2.",
+          "link": "#",
+          "image": "/posters/stepup.png"
+        }
+      ]
     },
     {
       "id": 3,
@@ -205,7 +219,10 @@
       "link": "https://rzp.io/rzp/rhy26day3",
       "buttonText": "Register for Day 3",
       "buttonType": "primary",
-      "redirect": true
+      "redirect": true,
+      "tagline": "Grand Finale & Pronite Night",
+      "marqueeText": "CULTURAL • TECHNICAL • SPORTS • MEDIA • JOIN THE CELEBRATION",
+      "marqueeSpeed": 27
     }
   ],
   "sponsors": [
