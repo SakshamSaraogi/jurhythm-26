@@ -7,8 +7,14 @@ import content from "@/lib/useContent";
 import GlowingDots from "@/components/GlowingDots";
 
 export default function StarsSection() {
+  // Use links from content.json pronite.cards
+  const dayLinks = content.pronite.cards.map((card) => card.link);
+
   return (
-    <section id="pronite" className="relative min-h-screen bg-black flex flex-col items-center justify-center py-12 overflow-hidden">
+    <section
+      id="pronite"
+      className="relative min-h-screen bg-black flex flex-col items-center justify-center py-12 overflow-hidden"
+    >
       <GlowingDots count={50} />
       {/* Hot Air Balloon - Floating on the right side */}
       <div className="hidden md:block absolute right-4 lg:right-8 top-1/4 z-10 animate-float">
@@ -35,8 +41,8 @@ export default function StarsSection() {
           <Equalizer />
         </div>
 
-        {/* Curve Carousel with flip cards */}
-        <CurveCarousel />
+        {/* Curve Carousel with flip cards - pass links for each card */}
+        <CurveCarousel dayLinks={dayLinks} />
       </div>
     </section>
   );

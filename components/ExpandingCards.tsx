@@ -11,8 +11,11 @@ export default function ExpandingCards() {
   const [activeId, setActiveId] = useState(1);
   const router = useRouter();
 
-  const handleExplore = (route: string) => {
-    router.push(route);
+  // Redirect to external link if redirect is true
+  const handleRedirect = (link: string, redirect: boolean) => {
+    if (redirect && link) {
+      window.open(link, '_blank');
+    }
   };
 
   return (
@@ -72,15 +75,14 @@ export default function ExpandingCards() {
                   <p className="text-gray-300 max-w-sm leading-relaxed text-sm md:text-base mb-4 font-inter">
                     {card.description}
                   </p>
-                  
                   <button 
                     onClick={(e) => {
                       e.stopPropagation();
-                      handleExplore(card.route);
+                      handleRedirect(card.link, card.redirect);
                     }}
                     className="flex items-center gap-2 text-black bg-gradient-to-r from-[#fbbf24] to-[#fde68a] hover:from-[#fde68a] hover:to-[#fbbf24] backdrop-blur-sm px-4 py-2 rounded-full transition-all duration-300 text-xs font-anton uppercase tracking-wider"
                   >
-                    Explore <ArrowUpRight size={14} />
+                    {card.buttonText || 'Register'} <ArrowUpRight size={14} />
                   </button>
                 </div>
 
@@ -130,10 +132,10 @@ export default function ExpandingCards() {
                 {card.description}
               </p>
               <button 
-                onClick={() => handleExplore(card.route)}
+                onClick={() => handleRedirect(card.link, card.redirect)}
                 className="flex items-center gap-2 text-black bg-gradient-to-r from-[#fbbf24] to-[#fde68a] hover:from-[#fde68a] hover:to-[#fbbf24] backdrop-blur-sm px-4 py-2 rounded-full transition-all duration-300 text-xs font-anton uppercase tracking-wider w-fit"
               >
-                Explore <ArrowUpRight size={14} />
+                {card.buttonText || 'Register'} <ArrowUpRight size={14} />
               </button>
             </div>
           </div>

@@ -4,10 +4,14 @@ import { useEffect, useState, useRef } from "react"
 import { MusicCard } from "./music-card"
 import content from "@/lib/useContent"
 
-export function CurveCarousel() {
+interface CurveCarouselProps {
+  dayLinks?: string[]
+}
+
+export function CurveCarousel({ dayLinks }: CurveCarouselProps) {
   const [isFlipped, setIsFlipped] = useState(false)
   const sectionRef = useRef<HTMLDivElement>(null)
-  const { site, pronite } = content
+  const { pronite } = content
   const cards = pronite.cards
 
   useEffect(() => {
@@ -47,8 +51,13 @@ export function CurveCarousel() {
     { rotate: 3, translateX: 0, translateY: 100, zIndex: 1 },
   ]
 
-  const handleCardClick = () => {
-    window.open(site.razorpayUrl, '_blank', 'noopener,noreferrer')
+  // Use dayLinks if provided, else fallback to site.razorpayUrl
+  const handleCardClick = (index: number) => {
+    if (dayLinks && dayLinks[index]) {
+      window.open(dayLinks[index], '_blank', 'noopener,noreferrer')
+    } else {
+      window.open(content.site.razorpayUrl, '_blank', 'noopener,noreferrer')
+    }
   }
 
   return (
@@ -68,7 +77,7 @@ export function CurveCarousel() {
               zIndex: cardPositions[index].zIndex,
               transitionDelay: `${index * 200}ms`,
             }}
-            onClick={handleCardClick}
+            onClick={() => handleCardClick(index)}
           >
             <MusicCard imageSrc={card.imageSrc} songName={card.songName} isFlipped={isFlipped} />
           </div>
@@ -90,7 +99,7 @@ export function CurveCarousel() {
               zIndex: mobileCardPositions[index].zIndex,
               transitionDelay: `${index * 200}ms`,
             }}
-            onClick={handleCardClick}
+            onClick={() => handleCardClick(index)}
           >
             <MusicCard imageSrc={card.imageSrc} songName={card.songName} isFlipped={isFlipped} />
           </div>
