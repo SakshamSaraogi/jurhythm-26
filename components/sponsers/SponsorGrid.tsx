@@ -42,8 +42,8 @@ const tierConfig = {
     borderColor: "border-[#cd7f32]/30",
     bgGradient: "from-[#cd7f32]/10 via-[#d4a574]/5 to-transparent",
     cardMinHeight: "min-h-[180px]",
-    gridCols: "grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5",
-    maxLogoWidth: "max-w-[220px]",
+    gridCols: "grid-cols-2 sm:grid-cols-3 md:grid-cols-4",
+    maxLogoWidth: "max-w-[320px]",
   },
 };
 
@@ -126,7 +126,7 @@ const SponsorGrid = () => {
                             src={sponsor.logo}
                             alt={sponsor.name}
                             fill
-                            className="object-contain filter grayscale hover:grayscale-0 transition-all duration-300 opacity-80 hover:opacity-100"
+                            className="object-contain transition-all duration-300 opacity-80 hover:opacity-100"
                             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                           />
                         </div>
