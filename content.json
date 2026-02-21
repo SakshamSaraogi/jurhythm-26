@@ -242,7 +242,7 @@
     },
     {
       "id": "3",
-      "name": "CLOTHING PARTNER",
+      "name": "FITNESS PARTNER",
       "logo": "/sponsors/antimatter.png",
       "website": "https://antimatterfit.com/gym-in-jaipur/",
       "tier": "partner"
@@ -364,6 +364,13 @@
       "name": "FRAGRANCE PARTNER",
       "logo": "/sponsors/envy.png",
       "website": "https://envyfragrances.com/",
+      "tier": "partner"
+    },
+    {
+      "id": "21",
+      "name": "CLOTHING PARTNER",
+      "logo": "/sponsors/stonerr.png",
+      "website": "https://stonerclub.in/",
       "tier": "partner"
     }
     
