@@ -10,7 +10,6 @@ import Navbar from "@/components/Navbar"
 import Hero from "@/components/Hero"
 import LazyComponent from "@/components/LazyComponent"
 import MarqueeBar from "@/components/MarqueeBar"
-import LoadingScreen from "@/components/LoadingScreen"
 
 // Lazy load heavy components
 const Footer = dynamic(() => import("@/components/Footer"), {
@@ -45,21 +44,6 @@ gsap.registerPlugin(ScrollTrigger)
 
 export default function Home() {
     const containerRef = useRef<HTMLDivElement>(null)
-    const [isLoading, setIsLoading] = useState(false)
-
-    useEffect(() => {
-      // Show loading only if not shown in this session
-      const hasShownLoading = sessionStorage.getItem('loadingShown')
-      if (!hasShownLoading) {
-        setIsLoading(true)
-      }
-    }, [])
-
-    const handleLoadingComplete = () => {
-      setIsLoading(false)
-      sessionStorage.setItem('loadingShown', 'true')
-    }
-
     useEffect(() => {
     const ctx = gsap.context(() => {
       const container = containerRef.current
@@ -94,9 +78,7 @@ export default function Home() {
 
 
   return (
-    <>
-      {isLoading && <LoadingScreen onLoadingComplete={handleLoadingComplete} />}
-      
+    <>      
       <div className="w-full h-screen bg-black relative">
         <Navbar />
         
